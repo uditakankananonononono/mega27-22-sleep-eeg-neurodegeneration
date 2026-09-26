@@ -1,0 +1,30 @@
+{
+  "source": "Sleep-EDF Expanded v1.0.0",
+  "recording_id": "SC4001E0-PSG.edf",
+  "subject_key": "SC400",
+  "sampling_hz": 100.0,
+  "duration_sec": 79500.0,
+  "stage_counts": {
+    "W": 1997,
+    "N1": 58,
+    "N2": 250,
+    "N3": 220,
+    "REM": 125,
+    "UNKNOWN": 0
+  },
+  "n2_to_rem_event_count": 2,
+  "n2_to_n3_event_count": 29,
+  "n2_to_rem_median_log_bandpower_change": {
+    "delta": -0.8106535235606649,
+    "theta": -0.274163862775236,
+    "alpha": -0.33766295069567775,
+    "sigma": -0.6425630816503517,
+    "beta": -0.0310179890386868
+  },
+  "qc_dropped_epochs": 0,
+  "interpretation": "Engineering feasibility only; no cognitive outcomes, statistics or biomarker validation",
+  "source_sha256": {
+    "SC4001E0-PSG.edf": "2b40a18adf76af69a42d6db1f30f31d26b369f6d27ca0050ef30147ef892b131",
+    "SC4001EC-Hypnogram.edf": "a4cf67694ade1b52a0ddd06d5817fd45d2d3e8bac5302f640f3e9cfbbf12a996"
+  }
+}

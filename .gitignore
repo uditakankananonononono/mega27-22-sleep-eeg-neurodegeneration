@@ -6,3 +6,5 @@ __pycache__/
 *.fif
 *.csv
 *.parquet
+
+local_data/
