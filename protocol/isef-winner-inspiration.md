@@ -1,0 +1,7 @@
+# Prior winner inspiration - verified, not imported as evidence
+
+The user's named example is Natasha Kulviwat. Society for Science lists her 2023 ISEF project as *The Neurobiology of Suicide: Claudin-5 Is a Novel Biomarker of Suicide Pathogenesis* (BMED028), First Award and Gordon E. Moore Award. The Society's abstract describes a mechanistic blood-brain barrier claudin-5 question with multiple forms of evidence, including de-identified postmortem tissue assays, localization, and publicly available RNA-sequencing analysis. Official sources:
+- https://abstracts.societyforscience.org/Home/FullAbstract?AllAbstracts=False&Category=Biomedical+and+Health+Sciences&FairCountry=Any+Country&FairState=Any+State&ISEFYears=0%2C&ProjectId=23691
+- https://www.societyforscience.org/press-release/regeneron-isef-full-awards-2023/
+
+Inspiration for DREAMING: define one mechanism-led signature, measure it reproducibly with complementary EEG features, separate association from diagnosis, and test it independently. Her project had experimental tissue access; this project does not. We must not claim the same tissue-level mechanistic proof from non-invasive EEG or borrow its award as proof DREAMING's hypothesis is true. A published winner is a standard for specificity and convergent evidence, not an instruction to imitate its disease, assays, or conclusions. A future ChatGPT judge round should ask what *additional evidence* would distinguish our sleep-EEG work from a classifier given this verified archetype.
