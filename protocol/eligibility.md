@@ -6,7 +6,7 @@ The unit is a real participant, not an EDF file, visit or PSG segment. Status is
 |---|---|---|---|---|---|
 | PhysioNet 2026 Challenge training | Described raw PSG and stages | Future ICD-coded cognitive impairment, MCI/AD/dementia pooled | 1-6 years post-PSG, per official rules | Training data linked from official page; exact access/terms to verify | Lead only; hidden sites' labels not available; cannot independently inspect signature replication |
 | BDSP HSP v3.0 | Described raw multi-site PSG | EHR diagnoses across systems | Participant-specific cognitive outcome needs confirmation | Credentialed DUA, AWS account and CITI | Not acquired |
-| NSRR MrOS | Two older-men PSG cycles | Cohort cognitive tests reported in literature | Exact link/timing unverified | Cost-free reviewed per-dataset DAUA | Candidate; not eligible yet |
+| NSRR MrOS | Two older-men PSG cycles | Published longitudinal incident CI analysis (2,609 men; 416 incident events), but individual-level outcome table in accessible package not verified | PSG 2003-05, follow-up to 2016 in paper; downloadable row-level linkage unverified | Cost-free reviewed per-dataset DAUA | Feasible in published parent cohort; eligibility/access unverified |
 | NSRR SHHS | Two PSG cycles | Cardiovascular endpoints described | Cognitive endpoint linkage unverified | Cost-free reviewed per-dataset DAUA | Candidate; not eligible yet |
 | Sleep-EDF Expanded | Open staged PSG | No suitable neurodegeneration endpoint | None | Open ODC Attribution 1.0 | Signal engineering only |
 | RESILIENT | No scalp EEG in documented files | Baseline/six-month cognitive tests | Longitudinal | Zenodo CC BY 4.0 | Excluded (wrong modality) |
