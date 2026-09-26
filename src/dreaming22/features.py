@@ -70,3 +70,41 @@ def recording_stage_bandpower(signal_uv: np.ndarray, sfreq: float,
     return {stage: {band: float(np.nanmedian([row[band] for row in rows]))
                     for band in BANDS}
             for stage, rows in collected.items() if rows}
+
+
+def transition_context_bandpower(signal_uv: np.ndarray, sfreq: float,
+                                 stages: list[str], source: str = "N2",
+                                 target: str = "REM", epoch_seconds: float = 30.,
+                                 min_events: int = 3) -> dict[str, float] | None:
+    """Exploratory within-recording transition-conditioned signature.
+
+    For each adjacent source->target transition, compare target-epoch power to
+    the immediately preceding source epoch; report median log(target/source)
+    across enough independent transitions. This is outcome-blind engineering,
+    not a validated novel biomarker. Connectivity or cause is NOT inferred.
+    """
+    if source not in STAGES or target not in STAGES or source == target:
+        raise ValueError("Source/target must be different known stages")
+    if min_events < 1:
+        raise ValueError("At least one event required")
+    samples = sfreq * epoch_seconds
+    if not np.isfinite(samples) or samples < 2 or not float(samples).is_integer():
+        raise ValueError("Epoch length must resolve to integer >=2 samples")
+    x = np.asarray(signal_uv, dtype=float)
+    n = int(samples)
+    if x.ndim != 1 or x.size != n * len(stages):
+        raise ValueError("Signal/stages misaligned")
+    stage_transitions(stages)
+    pairs = [(i-1, i) for i in range(1, len(stages))
+             if stages[i-1] == source and stages[i] == target]
+    if len(pairs) < min_events:
+        return None
+    changes = {band: [] for band in BANDS}
+    for before, after in pairs:
+        base = epoch_bandpower(x[before*n:(before+1)*n], sfreq)
+        follow = epoch_bandpower(x[after*n:(after+1)*n], sfreq)
+        for band in BANDS:
+            if np.isfinite(base[band]) and np.isfinite(follow[band]) and base[band] > 0 and follow[band] > 0:
+                changes[band].append(float(np.log(follow[band]/base[band])))
+    return {band: float(np.median(values)) if len(values) >= min_events else float("nan")
+            for band, values in changes.items()}
