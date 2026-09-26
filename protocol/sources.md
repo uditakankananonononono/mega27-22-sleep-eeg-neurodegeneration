@@ -8,3 +8,10 @@
 - BDSP dementia detection, official, https://bdsp.io/content/vbredhzkdixefl465gzg/1.0.0/ : credentialed derived data/research; raw EEG linkage not established. Medium.
 - Sleep-EDF Expanded, official, https://www.physionet.org/content/sleep-edfx/1.0.0/ : open ODC Attribution PSG+manual stages, no neurodegeneration diagnosis on page. High for staging pretraining only.
 - NACC, official, https://www.naccdata.org/about-nacc-data/longitudinal-neurocognitive-and-clinical-phenotype-data : longitudinal cognition but paired PSG absent from description. High for cognition only.
+
+## Search exclusions and access nuance (2026-09-26)
+
+- PhysioNet's small Challenge training set is also listed on Kaggle: https://www.kaggle.com/datasets/physionet/physionetchallenge2026data . This is a distribution mirror, not an independent source, and its page confirms three training hospitals with distinct hidden evaluation sites. Access/download and terms must still be checked; do not imply it can be used as an independent validation dataset.
+- RESILIENT Zenodo, https://zenodo.org/records/16755408 , has baseline and six-month cognitive assessments plus sleep-mat/watch streams but **no scalp sleep EEG** in its listed files. Reject for an EEG-derived biomarker even though cognition is longitudinal.
+- PEARL-Neuro, https://www.nature.com/articles/s41597-024-03106-5 , has non-invasive high-density **wake** EEG in generally healthy adults with risk genotypes and cognitive tasks, **not sleep PSG** or neurodegenerative disease follow-up. Reject as independent sleep-EEG validation.
+- NACC cognitive trajectories alone cannot be independently joined to PSG without an approved, demonstrated participant linkage; never infer one from cohort names.
