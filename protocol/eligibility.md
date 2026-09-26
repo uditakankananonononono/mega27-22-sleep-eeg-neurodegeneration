@@ -11,3 +11,5 @@ The unit is a real participant, not an EDF file, visit or PSG segment. Status is
 | Sleep-EDF Expanded | Open staged PSG | No suitable neurodegeneration endpoint | None | Open ODC Attribution 1.0 | Signal engineering only |
 | RESILIENT | No scalp EEG in documented files | Baseline/six-month cognitive tests | Longitudinal | Zenodo CC BY 4.0 | Excluded (wrong modality) |
 | PEARL-Neuro | Wake resting/task EEG, not sleep | Risk genotype/cognitive tests | Not disease trajectory | OpenNeuro via associated paper | Excluded (wrong modality) |
+
+**MrOS catalog warning:** The NSRR Visit-2 `mhalzh` self-report ('doctor ever told you dementia or Alzheimer's') has 1,885 UNKNOWN of 2,911 records, only 17 YES, 1,008 NO and 1 missing; https://sleepdata.org/datasets/mros/variables/mhalzh . It cannot stand in for the published 416 incident composite endpoint. Need actual cognitive scores and follow-up/visit-to-PSG linkage before eligibility. Never replace UNKNOWN with NO.
