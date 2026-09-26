@@ -9,7 +9,7 @@ class AnnotationTests(unittest.TestCase):
         result=stages_from_annotations([0,30,60],[30,30,30],['Sleep stage 2','Sleep stage R','Sleep stage 3'],3)
         self.assertEqual(result,['N2','REM','N3'])
     def test_partial_epoch_excluded(self):
-        self.assertEqual(stages_from_annotations([0,20],[20,40],['Sleep stage 2','Sleep stage R'],2),['UNKNOWN','UNKNOWN'])
+        self.assertEqual(stages_from_annotations([0,20],[20,40],['Sleep stage 2','Sleep stage R'],2),['UNKNOWN','REM'])
     def test_unknown_movement_excluded(self):
         self.assertEqual(stages_from_annotations([0],[30],['Movement time'],1),['UNKNOWN'])
     def test_r_and_n3_harmonize(self):
