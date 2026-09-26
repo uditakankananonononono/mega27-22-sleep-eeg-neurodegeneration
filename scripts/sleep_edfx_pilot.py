@@ -14,6 +14,7 @@ import numpy as np
 import pyedflib
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from dreaming22.features import epoch_bandpower, transition_context_bandpower, stage_transitions
+from dreaming22.transition_instability import transition_instability
 
 LABELS={'Sleep stage W':'W','Sleep stage 1':'N1','Sleep stage 2':'N2',
         'Sleep stage 3':'N3','Sleep stage 4':'N3','Sleep stage R':'REM'}
@@ -55,6 +56,7 @@ def run(psg,hyp,subject):
             'stage_counts':{s:cleaned.count(s) for s in ['W','N1','N2','N3','REM','UNKNOWN']},
             'n2_to_rem_event_count':len(pairs),'n2_to_n3_event_count':len(n3_pairs),
             'n2_to_rem_median_log_bandpower_change':transition,
+            'stage_pair_transition_instability':transition_instability(x[:ns*n_epochs],fs,cleaned),
             'qc_dropped_epochs':int((~keep).sum()),
             'interpretation':'Engineering feasibility only; no cognitive outcomes, statistics or biomarker validation'}
 

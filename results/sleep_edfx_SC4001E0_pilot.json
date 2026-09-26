@@ -21,6 +21,498 @@
     "sigma": -0.6425630816503517,
     "beta": -0.0310179890386868
   },
+  "stage_pair_transition_instability": {
+    "transitions": {
+      "N1>N2": {
+        "delta": {
+          "events": 14,
+          "mad_log_change": 0.30315309441374316
+        },
+        "theta": {
+          "events": 14,
+          "mad_log_change": 0.18180572649268822
+        },
+        "alpha": {
+          "events": 14,
+          "mad_log_change": 0.3644310782062379
+        },
+        "sigma": {
+          "events": 14,
+          "mad_log_change": 0.5316669091439675
+        },
+        "beta": {
+          "events": 14,
+          "mad_log_change": 0.2655661292527278
+        }
+      },
+      "N1>N3": {
+        "delta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "theta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "alpha": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "sigma": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "beta": {
+          "events": 1,
+          "mad_log_change": null
+        }
+      },
+      "N1>REM": {
+        "delta": {
+          "events": 3,
+          "mad_log_change": 0.1715840831064358
+        },
+        "theta": {
+          "events": 3,
+          "mad_log_change": 0.19724023181878456
+        },
+        "alpha": {
+          "events": 3,
+          "mad_log_change": 0.3828291416649869
+        },
+        "sigma": {
+          "events": 3,
+          "mad_log_change": 0.07649541452014932
+        },
+        "beta": {
+          "events": 3,
+          "mad_log_change": 0.0011757824771443971
+        }
+      },
+      "N1>W": {
+        "delta": {
+          "events": 6,
+          "mad_log_change": 0.5870697618163948
+        },
+        "theta": {
+          "events": 6,
+          "mad_log_change": 0.2357564594589505
+        },
+        "alpha": {
+          "events": 6,
+          "mad_log_change": 0.2556667674121873
+        },
+        "sigma": {
+          "events": 6,
+          "mad_log_change": 0.3993855902842115
+        },
+        "beta": {
+          "events": 6,
+          "mad_log_change": 0.5711824753295947
+        }
+      },
+      "N2>N1": {
+        "delta": {
+          "events": 8,
+          "mad_log_change": 0.25111024474221855
+        },
+        "theta": {
+          "events": 8,
+          "mad_log_change": 0.1726818139619079
+        },
+        "alpha": {
+          "events": 8,
+          "mad_log_change": 0.18792590720314958
+        },
+        "sigma": {
+          "events": 8,
+          "mad_log_change": 0.5424363377712789
+        },
+        "beta": {
+          "events": 8,
+          "mad_log_change": 0.7717797643565181
+        }
+      },
+      "N2>N3": {
+        "delta": {
+          "events": 29,
+          "mad_log_change": 0.13185726828795996
+        },
+        "theta": {
+          "events": 29,
+          "mad_log_change": 0.13374217903826752
+        },
+        "alpha": {
+          "events": 29,
+          "mad_log_change": 0.11785196708231993
+        },
+        "sigma": {
+          "events": 29,
+          "mad_log_change": 0.25992581876019405
+        },
+        "beta": {
+          "events": 29,
+          "mad_log_change": 0.06394466429527998
+        }
+      },
+      "N2>REM": {
+        "delta": {
+          "events": 2,
+          "mad_log_change": null
+        },
+        "theta": {
+          "events": 2,
+          "mad_log_change": null
+        },
+        "alpha": {
+          "events": 2,
+          "mad_log_change": null
+        },
+        "sigma": {
+          "events": 2,
+          "mad_log_change": null
+        },
+        "beta": {
+          "events": 2,
+          "mad_log_change": null
+        }
+      },
+      "N2>W": {
+        "delta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "theta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "alpha": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "sigma": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "beta": {
+          "events": 1,
+          "mad_log_change": null
+        }
+      },
+      "N3>N1": {
+        "delta": {
+          "events": 4,
+          "mad_log_change": 0.16792309025904834
+        },
+        "theta": {
+          "events": 4,
+          "mad_log_change": 0.19935542834911862
+        },
+        "alpha": {
+          "events": 4,
+          "mad_log_change": 0.2480065625524712
+        },
+        "sigma": {
+          "events": 4,
+          "mad_log_change": 0.3974075386696395
+        },
+        "beta": {
+          "events": 4,
+          "mad_log_change": 0.8991759930456726
+        }
+      },
+      "N3>N2": {
+        "delta": {
+          "events": 25,
+          "mad_log_change": 0.21558258269093628
+        },
+        "theta": {
+          "events": 25,
+          "mad_log_change": 0.25017225259305365
+        },
+        "alpha": {
+          "events": 25,
+          "mad_log_change": 0.21799986605825833
+        },
+        "sigma": {
+          "events": 25,
+          "mad_log_change": 0.37658660150257806
+        },
+        "beta": {
+          "events": 25,
+          "mad_log_change": 0.1355664205536577
+        }
+      },
+      "N3>REM": {
+        "delta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "theta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "alpha": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "sigma": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "beta": {
+          "events": 1,
+          "mad_log_change": null
+        }
+      },
+      "N3>W": {
+        "delta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "theta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "alpha": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "sigma": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "beta": {
+          "events": 1,
+          "mad_log_change": null
+        }
+      },
+      "REM>N1": {
+        "delta": {
+          "events": 2,
+          "mad_log_change": null
+        },
+        "theta": {
+          "events": 2,
+          "mad_log_change": null
+        },
+        "alpha": {
+          "events": 2,
+          "mad_log_change": null
+        },
+        "sigma": {
+          "events": 2,
+          "mad_log_change": null
+        },
+        "beta": {
+          "events": 2,
+          "mad_log_change": null
+        }
+      },
+      "REM>N2": {
+        "delta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "theta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "alpha": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "sigma": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "beta": {
+          "events": 1,
+          "mad_log_change": null
+        }
+      },
+      "REM>W": {
+        "delta": {
+          "events": 3,
+          "mad_log_change": 0.7303251268972952
+        },
+        "theta": {
+          "events": 3,
+          "mad_log_change": 0.007600237674498522
+        },
+        "alpha": {
+          "events": 3,
+          "mad_log_change": 0.08582062500148374
+        },
+        "sigma": {
+          "events": 3,
+          "mad_log_change": 0.2926072327868907
+        },
+        "beta": {
+          "events": 3,
+          "mad_log_change": 0.6348141498253483
+        }
+      },
+      "W>N1": {
+        "delta": {
+          "events": 10,
+          "mad_log_change": 0.23805166875289707
+        },
+        "theta": {
+          "events": 10,
+          "mad_log_change": 0.21427790612053088
+        },
+        "alpha": {
+          "events": 10,
+          "mad_log_change": 0.24660338270794002
+        },
+        "sigma": {
+          "events": 10,
+          "mad_log_change": 0.3049003489652031
+        },
+        "beta": {
+          "events": 10,
+          "mad_log_change": 0.2865315839165367
+        }
+      },
+      "W>N3": {
+        "delta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "theta": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "alpha": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "sigma": {
+          "events": 1,
+          "mad_log_change": null
+        },
+        "beta": {
+          "events": 1,
+          "mad_log_change": null
+        }
+      }
+    },
+    "stable_stage_control": {
+      "N1": {
+        "delta": {
+          "events": 34,
+          "mad_log_change": 0.1876395893963801
+        },
+        "theta": {
+          "events": 34,
+          "mad_log_change": 0.17750133248671493
+        },
+        "alpha": {
+          "events": 34,
+          "mad_log_change": 0.3234956193297737
+        },
+        "sigma": {
+          "events": 34,
+          "mad_log_change": 0.2555418058692236
+        },
+        "beta": {
+          "events": 34,
+          "mad_log_change": 0.18880313226827988
+        }
+      },
+      "N2": {
+        "delta": {
+          "events": 210,
+          "mad_log_change": 0.27139301278513916
+        },
+        "theta": {
+          "events": 210,
+          "mad_log_change": 0.21860884498645877
+        },
+        "alpha": {
+          "events": 210,
+          "mad_log_change": 0.24663428783455632
+        },
+        "sigma": {
+          "events": 210,
+          "mad_log_change": 0.3881791487984733
+        },
+        "beta": {
+          "events": 210,
+          "mad_log_change": 0.12585132449531589
+        }
+      },
+      "N3": {
+        "delta": {
+          "events": 189,
+          "mad_log_change": 0.16973183443881695
+        },
+        "theta": {
+          "events": 189,
+          "mad_log_change": 0.15358305105099404
+        },
+        "alpha": {
+          "events": 189,
+          "mad_log_change": 0.16889885199256433
+        },
+        "sigma": {
+          "events": 189,
+          "mad_log_change": 0.23819390466124957
+        },
+        "beta": {
+          "events": 189,
+          "mad_log_change": 0.08960011400287772
+        }
+      },
+      "REM": {
+        "delta": {
+          "events": 119,
+          "mad_log_change": 0.26330633366971323
+        },
+        "theta": {
+          "events": 119,
+          "mad_log_change": 0.19347560603133174
+        },
+        "alpha": {
+          "events": 119,
+          "mad_log_change": 0.21957608002993495
+        },
+        "sigma": {
+          "events": 119,
+          "mad_log_change": 0.17348753050035276
+        },
+        "beta": {
+          "events": 119,
+          "mad_log_change": 0.11941293911055727
+        }
+      },
+      "W": {
+        "delta": {
+          "events": 1985,
+          "mad_log_change": 0.29571739491034676
+        },
+        "theta": {
+          "events": 1985,
+          "mad_log_change": 0.24275724660232553
+        },
+        "alpha": {
+          "events": 1985,
+          "mad_log_change": 0.20279169602304895
+        },
+        "sigma": {
+          "events": 1985,
+          "mad_log_change": 0.20626605457914457
+        },
+        "beta": {
+          "events": 1985,
+          "mad_log_change": 0.2117324173548465
+        }
+      }
+    },
+    "minimum_events": 3,
+    "note": "Within-recording method feasibility only; no cognitive/disease label."
+  },
   "qc_dropped_epochs": 0,
   "interpretation": "Engineering feasibility only; no cognitive outcomes, statistics or biomarker validation",
   "source_sha256": {

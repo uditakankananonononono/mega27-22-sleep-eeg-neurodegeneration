@@ -1,0 +1,478 @@
+ISEF reviewer verdict (Round 2): DREAMING 22
+
+Current status: promising hypothesis + careful engineering scaffold, not yet a biomarker study.
+
+The strongest part is the discipline: SHA256 verification, outcome-blind preprocessing, no bridging of unknown gaps, and explicit admission that the pilot cannot satisfy the REM-event threshold. The biggest danger is that the project currently risks becoming a beautiful signal-processing exercise without a demonstrated biological question.
+
+A grand-award-level computational biology project would need the chain:
+
+sleep physiology hypothesis → reproducible EEG feature → same-task benchmark → prospective cognitive association → independent replication
+
+Right now the chain stops at:
+
+sleep physiology hypothesis → reproducible EEG feature (not yet demonstrated across people).
+
+1. Most damaging weaknesses
+Weakness 1 — The biological claim is ahead of the data
+
+The current feature:
+
+median log(target/source) bandpower during direct N2→REM transitions
+
+is interesting, but the biological interpretation is unclear.
+
+Questions a judge will immediately ask:
+
+Why should a transition-specific spectral ratio represent future cognitive decline?
+
+Why N2→REM rather than N3→N2, REM onset, spindle events, cyclic alternating patterns, or slow oscillation coupling?
+
+Is the feature measuring:
+
+thalamocortical transition dynamics?
+
+arousal instability?
+
+electrode/reference artifact?
+
+normal inter-individual sleep architecture variation?
+
+Without a mechanistic bridge, the novelty claim is vulnerable.
+
+Falsifier: If the feature cannot be separated from simpler sleep variables (transition duration, REM percentage, age-associated architecture variables), the biological interpretation weakens.
+
+Weakness 2 — The pilot event count exposes a fundamental unit-of-analysis problem
+
+You have:
+
+2 N2→REM events
+
+29 N2→N3 events
+
+This is not just a sample-size problem. It questions whether the proposed event is the correct biological unit.
+
+A judge will ask:
+
+"If the phenomenon is biologically meaningful, why is it so rare that a single public PSG provides only two observations?"
+
+You cannot solve this by lowering the threshold until it works. That looks like p-hacking.
+
+The correct response is to change the analysis unit before seeing outcomes.
+
+Weakness 3 — No baseline comparison yet
+
+The project explicitly needs:
+
+fair same-task benchmark beat
+
+Currently there is no benchmark.
+
+A reviewer will expect comparison against at least:
+
+Sleep-architecture baseline
+
+Examples:
+
+total N3 percentage
+
+REM percentage
+
+sleep efficiency
+
+N2 duration
+
+transition counts
+
+Spectral baseline
+
+Examples:
+
+N3 delta power
+
+gamma power
+
+multiband EEG summary
+
+Because prior work such as SOF already reported combinations of N3/gamma/multivariate features, simply adding another spectral ratio may be judged incremental.
+
+Weakness 4 — Novelty risk against prior literature
+
+The vulnerable statement is:
+
+"new biological insight"
+
+A skeptical reviewer will say:
+
+"Sleep EEG biomarkers of cognitive decline already exist. What specifically is new?"
+
+Prior art includes:
+
+N3-related measures
+
+gamma activity
+
+multivariate EEG features
+
+brain-age-index approaches
+
+Therefore novelty cannot be:
+
+"EEG predicts cognition"
+
+That is already established.
+
+The novelty must become something like:
+
+"a previously untested transition-dynamics feature describing state-change physiology."
+
+That is narrower and defensible.
+
+2. ONE concrete analysis change
+Proposed hypothesis: Transition Instability Signature (TIS)
+
+Hypothesis (not a result):
+
+Cognitive-aging-related vulnerability may manifest not as the absolute spectral power of a sleep stage, but as reduced physiological consistency during transitions between canonical sleep states.
+
+Instead of requiring rare N2→REM events, analyze all valid adjacent stage transitions.
+
+Examples:
+
+N2→REM
+
+N2→N3
+
+N3→N2
+
+REM→N1/N2
+
+No UNKNOWN bridging.
+
+Feature definition
+
+For every valid transition:
+
+Extract fixed window before transition:
+
+Example:
+
+last 30 seconds of preceding stage
+
+Extract fixed window after transition:
+
+Example:
+
+first 30 seconds of new stage
+
+Calculate spectral transition vector:
+
+Possible features:
+
+delta change
+
+theta change
+
+sigma change
+
+beta change
+
+gamma change
+
+target/source ratios
+
+Example:
+
+ΔF=log(P
+after
+	​
+
+)−log(P
+before
+	​
+
+)
+
+Then summarize within-person transition variability:
+
+TIS=median(∣ΔF
+i
+	​
+
+−median(ΔF)∣)
+
+Interpretation hypothesis:
+
+Stable sleep systems may show consistent transition dynamics.
+
+Dysregulated aging systems may show increased transition variability.
+
+Important:
+
+This is a hypothesis about physiology, not a disease biomarker claim yet.
+
+Why this is better than the current feature
+Addresses scarcity
+
+Current:
+
+2 N2→REM events/person
+
+New:
+
+Uses every valid transition.
+
+This avoids inventing a cutoff.
+
+Distinguishes from N3/gamma literature
+
+It is not:
+
+"more gamma"
+
+"less N3"
+
+"higher delta"
+
+It asks:
+
+How predictable is the brain's spectral trajectory when changing states?
+
+That is a different biological object.
+
+Same-task fair negative controls
+
+Pre-register these:
+
+Negative control 1 — Randomized transition labels
+
+Shuffle transition identities within each subject while preserving:
+
+number of transitions
+
+sleep duration
+
+spectral distribution
+
+Prediction:
+
+The transition-instability structure should disappear.
+
+Falsifier:
+
+If shuffled data performs similarly, the feature likely captures generic spectral variance.
+
+Negative control 2 — Non-transition windows
+
+Take equally sized windows from stable N2 periods.
+
+Hypothesis:
+
+Transition-derived variability should exceed stationary sleep variability.
+
+Falsifier:
+
+If stationary windows produce identical signal, transition specificity is unsupported.
+
+Negative control 3 — Simple architecture feature
+
+Compare against:
+
+total N3 %
+
+REM %
+
+sleep efficiency
+
+Falsifier:
+
+If TIS adds no information beyond architecture, the claimed transition mechanism is weaker.
+
+3. What NOT to do
+
+Avoid:
+
+lowering REM event threshold from 3 → 2 because the pilot failed
+
+choosing the transition type after seeing results
+
+combining dozens of spectral ratios and selecting the best
+
+claiming Alzheimer's prediction from Sleep-EDF
+
+claiming validation from synthetic tests
+
+Your 20 engineering tests demonstrate:
+
+software correctness
+
+They do not demonstrate:
+
+biological validity.
+
+4. Ranked data acquisition route
+
+Availability must be verified directly before claiming access.
+
+Tier 1 — Prospective challenge dataset with hidden outcomes
+Candidate:
+
+PhysioNet Challenge 2026
+
+Status based on your description:
+
+multi-site PSG: reported
+
+future ICD-coded outcomes: reported
+
+labels: hidden
+
+credentialing required
+
+Use case:
+
+Best for locked external validation if access is granted.
+
+Needed:
+
+official data access approval
+
+documented inclusion criteria
+
+predefined evaluation metric
+
+Tier 2 — Public linked PSG + cognition cohorts
+SOF sleep EEG cohort
+
+Why:
+
+published association between baseline EEG and later cognitive impairment
+
+directly relevant phenotype
+
+Need to verify:
+
+whether raw EEG is accessible
+
+whether the required variables are available
+
+whether secondary analysis permission exists
+
+Tier 3 — MrOS
+
+Why:
+
+large aging cohort
+
+sleep EEG literature precedent
+
+Need to verify:
+
+raw EEG availability
+
+cognitive outcome linkage
+
+access process
+
+Tier 4 — Independent replication
+
+The replication cohort must differ from discovery.
+
+Ideal:
+
+Discovery:
+
+one cohort
+
+Replication:
+
+another cohort
+
+different recruitment population
+
+same locked feature extraction
+
+Examples to investigate:
+
+additional aging cohorts with PSG + cognition
+
+institutional datasets with controlled access
+
+Do not claim one until access is confirmed.
+
+5. Minimum path to become ISEF-competitive
+
+A realistic sequence:
+
+Stage 1 (now)
+
+Question:
+
+Does TIS reproducibly exist in normal PSG?
+
+Data:
+
+Sleep-EDF
+
+Output:
+
+feature distributions
+
+transition-specific analysis
+
+negative controls
+
+No disease claims.
+
+Stage 2
+
+Same-task benchmark:
+
+Compare:
+
+architecture-only model
+
+published-style spectral features
+
+TIS feature
+
+Pre-register.
+
+Stage 3
+
+Outcome cohort:
+
+Only then ask:
+
+Is TIS associated with future cognitive outcomes?
+
+Stage 4
+
+Replication:
+
+Frozen pipeline.
+
+No tuning.
+
+Final judge assessment
+
+Strengths
+
+unusually honest protocol discipline
+
+interpretable EEG focus
+
+avoids black-box AI hype
+
+good reproducibility instincts
+
+Critical weakness
+
+the project currently has no demonstrated biological signal, only a proposed signal.
+
+The most defensible rescue is not "find more N2→REM events."
+
+It is:
+
+Reframe from a rare event biomarker to a transition-dynamics physiology hypothesis, test it on all valid stage transitions, and prove it is not merely sleep architecture or random spectral fluctuation.
+
+If that hypothesis survives same-task controls, then prospective cognitive prediction becomes a scientifically meaningful next experiment rather than a fishing expedition.
