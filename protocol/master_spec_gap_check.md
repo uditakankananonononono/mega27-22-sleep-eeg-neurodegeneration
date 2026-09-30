@@ -8,7 +8,7 @@ The user re-issued a broader program requirement at 00:16 IST. This project is n
 - External tool floor: 40+ research services/tools per project remains open; a link list or an untested integration is not usage.
 - Formulas: >=10 numbered formulas in the final paper remain open; code expressions are not a formatted paper formula count.
 - Paper: 50+ pages of text body in Times New Roman excluding headings, figures, diagrams, appendices, references. No paper exists.
-- ChatGPT novelty judge: 2 complete, novelty-producing method rounds with prompt/response in the repo; >=10 and a final substantive pass still open. Gemini/DeepSeek may assist but cannot substitute for required ChatGPT judgment.
+- ChatGPT requirement (updated September 30): original September 27/29 user messages reduce ten rounds to one per project. Three rounds complete with concrete engineering changes; requirement met. Round 4 withdrawn without submission. This gate does not prove the scientific results.
 - Fair best-in-field benchmark beat, new independently replicated biological discovery, and usable disease-facing biomarker tool: all absent. Present code is a signal-engineering tool only.
 
 A huge quantitative floor does not license duplicate counting, fabricated claims or pretending a source is accessible. Keep researching, record hard feasibility gaps, and ask the parent for a decision if the scope cannot be met on source-grounded terms.
