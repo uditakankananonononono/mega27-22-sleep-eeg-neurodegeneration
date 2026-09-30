@@ -1,0 +1,261 @@
+{
+  "source": "Sleep-EDF Expanded v1.0.0",
+  "recording": "SC4001E0-PSG.edf",
+  "band": "delta",
+  "bin_epochs": 60,
+  "context_radius": 10,
+  "min_events": 3,
+  "time_origin": "recording start, not lights-off",
+  "result": {
+    "pairs": {
+      "N1>N2": {
+        "eligible_events": 14,
+        "nonoverlapping_events": 14,
+        "matched_events": 1,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": [
+          [
+            1247,
+            1244
+          ]
+        ]
+      },
+      "N1>N3": {
+        "eligible_events": 1,
+        "nonoverlapping_events": 1,
+        "matched_events": 0,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": []
+      },
+      "N1>REM": {
+        "eligible_events": 3,
+        "nonoverlapping_events": 3,
+        "matched_events": 0,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": []
+      },
+      "N1>W": {
+        "eligible_events": 6,
+        "nonoverlapping_events": 6,
+        "matched_events": 1,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": [
+          [
+            1708,
+            1738
+          ]
+        ]
+      },
+      "N2>N1": {
+        "eligible_events": 8,
+        "nonoverlapping_events": 8,
+        "matched_events": 2,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": [
+          [
+            1416,
+            1407
+          ],
+          [
+            1418,
+            1397
+          ]
+        ]
+      },
+      "N2>N3": {
+        "eligible_events": 29,
+        "nonoverlapping_events": 29,
+        "matched_events": 5,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": [
+          [
+            1095,
+            1093
+          ],
+          [
+            1282,
+            1280
+          ],
+          [
+            1297,
+            1294
+          ],
+          [
+            1429,
+            1407
+          ],
+          [
+            1622,
+            1627
+          ]
+        ]
+      },
+      "N2>REM": {
+        "eligible_events": 2,
+        "nonoverlapping_events": 2,
+        "matched_events": 0,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": []
+      },
+      "N2>W": {
+        "eligible_events": 1,
+        "nonoverlapping_events": 1,
+        "matched_events": 1,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": [
+          [
+            1569,
+            1581
+          ]
+        ]
+      },
+      "N3>N1": {
+        "eligible_events": 4,
+        "nonoverlapping_events": 4,
+        "matched_events": 0,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": []
+      },
+      "N3>N2": {
+        "eligible_events": 25,
+        "nonoverlapping_events": 25,
+        "matched_events": 10,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": [
+          [
+            1039,
+            1073
+          ],
+          [
+            1063,
+            1053
+          ],
+          [
+            1075,
+            1041
+          ],
+          [
+            1110,
+            1112
+          ],
+          [
+            1188,
+            1186
+          ],
+          [
+            1283,
+            1287
+          ],
+          [
+            1446,
+            1454
+          ],
+          [
+            1457,
+            1468
+          ],
+          [
+            1606,
+            1608
+          ],
+          [
+            1621,
+            1623
+          ]
+        ]
+      },
+      "N3>REM": {
+        "eligible_events": 1,
+        "nonoverlapping_events": 1,
+        "matched_events": 0,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": []
+      },
+      "N3>W": {
+        "eligible_events": 1,
+        "nonoverlapping_events": 1,
+        "matched_events": 1,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": [
+          [
+            1060,
+            1048
+          ]
+        ]
+      },
+      "REM>N1": {
+        "eligible_events": 2,
+        "nonoverlapping_events": 2,
+        "matched_events": 0,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": []
+      },
+      "REM>N2": {
+        "eligible_events": 1,
+        "nonoverlapping_events": 1,
+        "matched_events": 0,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": []
+      },
+      "REM>W": {
+        "eligible_events": 3,
+        "nonoverlapping_events": 3,
+        "matched_events": 0,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": []
+      },
+      "W>N1": {
+        "eligible_events": 10,
+        "nonoverlapping_events": 10,
+        "matched_events": 3,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": [
+          [
+            1705,
+            1727
+          ],
+          [
+            1718,
+            1720
+          ],
+          [
+            1737,
+            1730
+          ]
+        ]
+      },
+      "W>N3": {
+        "eligible_events": 1,
+        "nonoverlapping_events": 1,
+        "matched_events": 0,
+        "complete_support": false,
+        "mad_difference": null,
+        "indices": []
+      }
+    },
+    "recording_median_difference": null,
+    "eligible_pairs": 0,
+    "inference": "descriptive only; no exchangeable null established"
+  },
+  "source_sha256": {
+    "SC4001E0-PSG.edf": "2b40a18adf76af69a42d6db1f30f31d26b369f6d27ca0050ef30147ef892b131",
+    "SC4001EC-Hypnogram.edf": "a4cf67694ade1b52a0ddd06d5817fd45d2d3e8bac5302f640f3e9cfbbf12a996"
+  },
+  "limitations": "One recording; crude QC; temporal dependence; no clinical labels, interval or p-value. No pair chosen by effect."
+}
