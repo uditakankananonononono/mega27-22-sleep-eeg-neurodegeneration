@@ -1,0 +1,189 @@
+The most damaging bias is selection/confounding of the transition signal by event type and time-of-night, compounded by outcome-free stage-pair selection. The raw pilot already illustrates why: N2→REM has only 2 events and fails the frozen ≥3 gate, while N2→N3 has 29 and stable N2→N2 has 210. A lower transition MAD therefore cannot be interpreted as transition-specific biology unless the comparison is constructed so that event count, stage composition, and circadian/sleep-time distribution are comparable.
+
+A separate, even more fundamental limitation is criterion validity: with no cognitive-outcome linkage, DREAMING 22 cannot presently establish a cognitive-impairment biomarker. It can establish whether the proposed EEG statistic has a reproducible, transition-specific signal.
+
+One novelty-producing analysis
+
+Preregistered matched transition-vs-stable negative-control test
+
+Do not select N2→N3 because it looks promising. Define before inspecting the outcome statistic:
+
+all stage-pair transitions satisfying the frozen minimum event-count criterion;
+
+the corresponding stable-window pool;
+
+one aggregate transition-specificity estimand across all eligible pairs.
+
+For each recording and each eligible transition type s→t:
+
+Identify every qualifying adjacent transition event.
+
+Construct a stable-window pool from adjacent same-stage windows.
+
+Match stable windows to transition events on:
+
+recording;
+
+starting stage;
+
+time of night, using prespecified bins (e.g. 30-minute bins);
+
+stage mix, defined prospectively from the stage labels in the surrounding prespecified window;
+
+exact event count n.
+
+If multiple controls are available, randomly select one matched stable set using a fixed seed, or better, repeat the matching under a preregistered number of random draws and aggregate the resulting statistics.
+
+Never select the stage pair based on its observed MAD.
+
+The key point is that the control is asking:
+
+Does the proposed statistic behave differently specifically when a sleep-stage transition occurs, rather than merely during comparable portions of the night having similar stage composition?
+
+Exact statistic
+
+For every matched transition/control set, calculate
+
+D
+r,p
+	​
+
+=MAD
+transition,r,p
+	​
+
+−MAD
+stable,r,p
+	​
+
+,
+
+where r is recording and p is the prespecified stage-pair type.
+
+Then use the recording-level median of D
+r,p
+	​
+
+ as the primary estimand, with all eligible stage pairs contributing according to a prespecified rule rather than allowing the largest observed effect to determine the pair.
+
+A particularly clean preregistered primary statistic is:
+
+T=median
+r,p
+	​
+
+[MAD
+transition,r,p
+	​
+
+−MAD
+stable,r,p
+	​
+
+].
+
+Report the effect direction and a 95% permutation interval, not merely a p-value.
+
+I would also preregister a secondary standardized version,
+
+Z
+r,p
+	​
+
+=
+MAD(D
+r,p
+	​
+
+ under permutation)
+MAD
+transition,r,p
+	​
+
+−MAD
+stable,r,p
+	​
+
+	​
+
+,
+
+but keep T as the primary result so the analysis remains interpretable in the original MAD units.
+
+Permutation that preserves temporal autocorrelation
+
+Do not independently shuffle 30-second epochs. That would manufacture independence.
+
+Instead, use a within-recording circular block permutation:
+
+preserve the original sequence of epochs;
+
+divide the recording into prespecified contiguous blocks, e.g. 30-minute blocks;
+
+circularly shift the transition labels relative to the EEG-derived values by whole blocks;
+
+reconstruct matched transition/control sets under each shift;
+
+retain only permutations satisfying the same eligibility and matching rules.
+
+This preserves short-range temporal dependence within blocks while destroying the specific alignment between a stage-transition label and the EEG statistic.
+
+For the primary null distribution, use all allowable circular shifts if their number is manageable; otherwise use a preregistered fixed number such as 10,000. The permutation p-value should be
+
+p=
+1+N
+perm
+	​
+
+1+#{∣T
+∗
+∣≥∣T
+obs
+	​
+
+∣}
+	​
+
+.
+
+Importantly, the matching algorithm itself must be rerun inside each permutation. Otherwise the matching procedure can leak information from the observed arrangement into the null.
+
+Falsifier
+
+The strongest falsifier is:
+
+After exact event-count/time-of-night/stage-mix matching, transition windows do not consistently differ from stable controls.
+
+Operationally, preregister that the analysis is considered negative if the observed T is not outside the two-sided 95% permutation interval.
+
+An even more informative falsifier is a stage-label placebo: apply exactly the same pipeline to temporally displaced pseudo-transition labels. If the pseudo-transitions produce an effect comparable to the genuine transitions, that argues that the statistic is responding to generic temporal structure rather than transition specificity.
+
+Synthetic-only illustration
+
+Because the pilot counts are not matched and are not physiological/cognitive evidence, the synthetic illustration should remain explicitly synthetic.
+
+For example, simulate 40 recordings with autocorrelated log-power trajectories. Give each recording:
+
+30 synthetic transition events;
+
+30 matched stable events;
+
+identical time-of-night distributions;
+
+identical prescribed stage composition;
+
+an AR(1) dependence structure.
+
+Under the null, generate transition and stable values from the same process. The analysis should yield a distribution of T centered near zero.
+
+Then, only as a positive-control simulation, introduce a known transition-specific increase in dispersion—for example, multiply the innovation variance during synthetic transition windows by a fixed preregistered factor. The pipeline should recover a positive T while still maintaining the correct null behavior when that injected effect is absent.
+
+That demonstrates that the statistic and permutation procedure can detect a transition-specific effect; it does not demonstrate that real Sleep-EDF transitions possess that effect.
+
+Bottom line for Round 3
+
+The most damaging issue is not that the pilot's N2→N3 MAD is uninteresting. It is that the present transition-versus-stable comparison cannot disentangle a transition effect from unequal event sampling, sleep-time distribution, stage composition, and stage-pair selection.
+
+The matched negative-control analysis above would give DREAMING 22 a genuinely sharper methodological contribution: a preregistered test of whether the MAD-of-log-bandpower-change statistic is specifically transition-dependent rather than simply a measure of variable EEG dynamics during selected portions of sleep.
+
+It still would not establish a cognitive-impairment biomarker. That requires an independently coded cognitive-outcome cohort, ideally with the entire statistic frozen before outcome analysis.

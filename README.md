@@ -1,6 +1,6 @@
 # DREAMING 22: sleep EEG and early neurodegenerative signatures
 
-Status, 2026-09-26: protocol/engineering scaffold only. No participant PSG/outcome data acquired, no model fit, no measured biomarker, and no independent validation. Not a diagnostic device or Alzheimer's classifier.
+Status, 2026-09-30: protocol/engineering scaffold only. No participant PSG/outcome data acquired, no model fit, no measured biomarker, and no independent validation. Not a diagnostic device or Alzheimer's classifier.
 
 Goal: discover a non-invasive sleep-EEG-derived *candidate biomarker* for early neurodegeneration and test whether it generalizes across genuinely independent datasets. A candidate is not a clinically validated biomarker, early-disease diagnosis, causal mechanism, or confirmed Alzheimer-specific signal. Question: Which stage-specific changes in sleep-brain dynamics associate with current cognitive impairment or future decline, beyond age and sleep/clinical confounders? Start with spectral power, complexity, sleep-stage transitions, and a REM-focused hypothesis. Connectivity and cross-frequency coupling are conditional on sufficient comparable EEG electrodes, viable signal quality, and predeclared methods. A two-lead PSG is not a high-density brain network.
 
@@ -19,3 +19,9 @@ Data leads and access: see protocol/sources.md. Source page descriptions do not 
 ## Engineering prototype
 
 `src/dreaming22/features.py` accepts a uniformly sampled, pre-QC'd EEG array in microvolts and stage labels per fixed epoch, computes Welch bandpower and stage transitions. It does not do EDF ingestion, clinical outcome linkage, age adjustment, connectivity, or validation. These remain open tasks. Run `python3 -m unittest discover -s tests` with numpy and scipy installed.
+
+## Prospective endpoint and access audit
+
+`src/dreaming22/outcome_contract.py` checks explicit elapsed-day endpoint thresholds and baseline PSG linkage using synthetic metadata. It does not read clinical data. Current engineering suite: 42 passing tests. Access/competition status recheck: `protocol/access_recheck_2026_09_30.md`. No participant clinical dataset acquired, no model fitted, and no clinical or biological result exists.
+
+`matched_controls.py` adds descriptive, exact within-recording context/time/count-matched controls. No exchangeable permutation null or disease result is established. See `protocol/matched_control_contract.md` and `protocol/open_route_audit.md`.
