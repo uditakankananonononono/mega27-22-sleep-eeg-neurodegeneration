@@ -22,6 +22,8 @@ Data leads and access: see protocol/sources.md. Source page descriptions do not 
 
 ## Prospective endpoint and access audit
 
-`src/dreaming22/outcome_contract.py` checks explicit elapsed-day endpoint thresholds and baseline PSG linkage using synthetic metadata. It does not read clinical data. Current engineering suite: 42 passing tests. Access/competition status recheck: `protocol/access_recheck_2026_09_30.md`. No participant clinical dataset acquired, no model fitted, and no clinical or biological result exists.
+`src/dreaming22/outcome_contract.py` checks explicit elapsed-day endpoint thresholds and baseline PSG linkage using synthetic metadata. It does not read clinical data. Current engineering suite: 47 passing tests. Access/competition status recheck: `protocol/access_recheck_2026_09_30.md`. No participant clinical dataset acquired, no model fitted, and no clinical or biological result exists.
 
 `matched_controls.py` adds descriptive, exact within-recording context/time/count-matched controls. No exchangeable permutation null or disease result is established. See `protocol/matched_control_contract.md` and `protocol/open_route_audit.md`.
+
+A stage-only common-support capacity audit proves the frozen matched comparisons cannot achieve full support in the pilot. It does not rescue the clinical endpoint or establish a biomarker. See `results/README.md`.

@@ -1,0 +1,1904 @@
+{
+  "recording": "SC4002EC-Hypnogram.edf",
+  "scope": "ANNOTATION ONLY: no raw EEG QC, no effect estimate, not an independent participant; annotation end used for grid",
+  "epochs": 2880,
+  "result": {
+    "pairs": {
+      "N1>N2": {
+        "events": 20,
+        "events_with_no_exact_control": 20,
+        "unavoidable_unmatched_lower_bound": 20,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "N1",
+            "time_bin": 14,
+            "context_counts": [
+              2,
+              10,
+              0,
+              0,
+              8
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 18,
+            "context_counts": [
+              1,
+              9,
+              9,
+              0,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 19,
+            "context_counts": [
+              2,
+              0,
+              0,
+              16,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 20,
+            "context_counts": [
+              2,
+              10,
+              0,
+              0,
+              8
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 22,
+            "context_counts": [
+              1,
+              8,
+              0,
+              8,
+              3
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 22,
+            "context_counts": [
+              2,
+              12,
+              0,
+              4,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 22,
+            "context_counts": [
+              2,
+              15,
+              1,
+              0,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 23,
+            "context_counts": [
+              3,
+              10,
+              0,
+              0,
+              7
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 24,
+            "context_counts": [
+              0,
+              8,
+              12,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 24,
+            "context_counts": [
+              1,
+              8,
+              2,
+              9,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 26,
+            "context_counts": [
+              2,
+              9,
+              0,
+              9,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 26,
+            "context_counts": [
+              2,
+              12,
+              0,
+              6,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 26,
+            "context_counts": [
+              6,
+              4,
+              0,
+              9,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 27,
+            "context_counts": [
+              0,
+              19,
+              0,
+              0,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 28,
+            "context_counts": [
+              5,
+              1,
+              7,
+              5,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 29,
+            "context_counts": [
+              2,
+              16,
+              0,
+              0,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 29,
+            "context_counts": [
+              3,
+              7,
+              0,
+              6,
+              4
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 29,
+            "context_counts": [
+              4,
+              12,
+              0,
+              0,
+              4
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 30,
+            "context_counts": [
+              1,
+              18,
+              0,
+              0,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 31,
+            "context_counts": [
+              1,
+              18,
+              0,
+              0,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "N1>REM": {
+        "events": 7,
+        "events_with_no_exact_control": 7,
+        "unavoidable_unmatched_lower_bound": 7,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "N1",
+            "time_bin": 19,
+            "context_counts": [
+              2,
+              1,
+              0,
+              15,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 24,
+            "context_counts": [
+              1,
+              7,
+              2,
+              10,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 25,
+            "context_counts": [
+              7,
+              0,
+              0,
+              10,
+              3
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 25,
+            "context_counts": [
+              7,
+              0,
+              0,
+              12,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 26,
+            "context_counts": [
+              5,
+              5,
+              0,
+              10,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 28,
+            "context_counts": [
+              5,
+              2,
+              1,
+              10,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 29,
+            "context_counts": [
+              0,
+              0,
+              0,
+              20,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "N1>W": {
+        "events": 5,
+        "events_with_no_exact_control": 5,
+        "unavoidable_unmatched_lower_bound": 5,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "N1",
+            "time_bin": 20,
+            "context_counts": [
+              2,
+              5,
+              0,
+              0,
+              13
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 20,
+            "context_counts": [
+              3,
+              8,
+              0,
+              0,
+              9
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 22,
+            "context_counts": [
+              1,
+              8,
+              0,
+              0,
+              11
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 22,
+            "context_counts": [
+              2,
+              16,
+              1,
+              0,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N1",
+            "time_bin": 23,
+            "context_counts": [
+              3,
+              1,
+              0,
+              0,
+              16
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "N2>N1": {
+        "events": 7,
+        "events_with_no_exact_control": 7,
+        "unavoidable_unmatched_lower_bound": 7,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "N2",
+            "time_bin": 22,
+            "context_counts": [
+              2,
+              15,
+              1,
+              0,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 24,
+            "context_counts": [
+              1,
+              7,
+              2,
+              10,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 24,
+            "context_counts": [
+              1,
+              9,
+              2,
+              8,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 26,
+            "context_counts": [
+              2,
+              11,
+              0,
+              7,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 26,
+            "context_counts": [
+              6,
+              4,
+              0,
+              9,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 28,
+            "context_counts": [
+              5,
+              1,
+              5,
+              7,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 31,
+            "context_counts": [
+              1,
+              18,
+              0,
+              0,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "N2>N3": {
+        "events": 16,
+        "events_with_no_exact_control": 13,
+        "unavoidable_unmatched_lower_bound": 13,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "N2",
+            "time_bin": 14,
+            "context_counts": [
+              0,
+              10,
+              10,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 16,
+            "context_counts": [
+              0,
+              14,
+              6,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 16,
+            "context_counts": [
+              0,
+              16,
+              3,
+              1,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 17,
+            "context_counts": [
+              0,
+              8,
+              12,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 17,
+            "context_counts": [
+              0,
+              10,
+              10,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 17,
+            "context_counts": [
+              0,
+              15,
+              5,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 18,
+            "context_counts": [
+              1,
+              13,
+              0,
+              6,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 21,
+            "context_counts": [
+              0,
+              2,
+              18,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 21,
+            "context_counts": [
+              0,
+              11,
+              9,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 1,
+            "disjoint_capacity_upper_bound": 1,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 21,
+            "context_counts": [
+              0,
+              13,
+              7,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 2,
+            "disjoint_capacity_upper_bound": 2,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 22,
+            "context_counts": [
+              2,
+              16,
+              0,
+              0,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 24,
+            "context_counts": [
+              0,
+              4,
+              16,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 24,
+            "context_counts": [
+              0,
+              14,
+              6,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 4,
+            "disjoint_capacity_upper_bound": 2,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 24,
+            "context_counts": [
+              0,
+              20,
+              0,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 24,
+            "context_counts": [
+              3,
+              10,
+              7,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 27,
+            "context_counts": [
+              0,
+              10,
+              10,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "N2>REM": {
+        "events": 5,
+        "events_with_no_exact_control": 5,
+        "unavoidable_unmatched_lower_bound": 5,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "N2",
+            "time_bin": 16,
+            "context_counts": [
+              0,
+              7,
+              3,
+              10,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 18,
+            "context_counts": [
+              1,
+              9,
+              1,
+              8,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 19,
+            "context_counts": [
+              0,
+              9,
+              0,
+              11,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 20,
+            "context_counts": [
+              0,
+              16,
+              0,
+              4,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 22,
+            "context_counts": [
+              1,
+              8,
+              0,
+              10,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "N2>W": {
+        "events": 9,
+        "events_with_no_exact_control": 7,
+        "unavoidable_unmatched_lower_bound": 7,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "N2",
+            "time_bin": 19,
+            "context_counts": [
+              3,
+              0,
+              0,
+              16,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 20,
+            "context_counts": [
+              2,
+              9,
+              0,
+              1,
+              8
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 22,
+            "context_counts": [
+              3,
+              8,
+              0,
+              0,
+              9
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 22,
+            "context_counts": [
+              3,
+              13,
+              1,
+              2,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 26,
+            "context_counts": [
+              1,
+              19,
+              0,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 1,
+            "disjoint_capacity_upper_bound": 1,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 29,
+            "context_counts": [
+              3,
+              16,
+              0,
+              0,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 1,
+            "disjoint_capacity_upper_bound": 1,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 29,
+            "context_counts": [
+              5,
+              9,
+              0,
+              2,
+              4
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 30,
+            "context_counts": [
+              2,
+              18,
+              0,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N2",
+            "time_bin": 31,
+            "context_counts": [
+              0,
+              10,
+              0,
+              0,
+              10
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "N3>N1": {
+        "events": 1,
+        "events_with_no_exact_control": 1,
+        "unavoidable_unmatched_lower_bound": 1,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "N3",
+            "time_bin": 24,
+            "context_counts": [
+              0,
+              8,
+              12,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "N3>N2": {
+        "events": 13,
+        "events_with_no_exact_control": 11,
+        "unavoidable_unmatched_lower_bound": 11,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "N3",
+            "time_bin": 16,
+            "context_counts": [
+              0,
+              9,
+              11,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 16,
+            "context_counts": [
+              0,
+              13,
+              3,
+              4,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 16,
+            "context_counts": [
+              0,
+              15,
+              5,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 17,
+            "context_counts": [
+              0,
+              9,
+              11,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 17,
+            "context_counts": [
+              0,
+              14,
+              6,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 18,
+            "context_counts": [
+              0,
+              13,
+              0,
+              7,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 21,
+            "context_counts": [
+              0,
+              4,
+              16,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 1,
+            "disjoint_capacity_upper_bound": 1,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 21,
+            "context_counts": [
+              0,
+              10,
+              10,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 1,
+            "disjoint_capacity_upper_bound": 1,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 21,
+            "context_counts": [
+              0,
+              12,
+              8,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 22,
+            "context_counts": [
+              3,
+              15,
+              0,
+              0,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 24,
+            "context_counts": [
+              0,
+              8,
+              12,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 24,
+            "context_counts": [
+              0,
+              20,
+              0,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 24,
+            "context_counts": [
+              3,
+              10,
+              5,
+              2,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "N3>W": {
+        "events": 2,
+        "events_with_no_exact_control": 2,
+        "unavoidable_unmatched_lower_bound": 2,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "N3",
+            "time_bin": 18,
+            "context_counts": [
+              2,
+              8,
+              10,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "N3",
+            "time_bin": 28,
+            "context_counts": [
+              6,
+              2,
+              10,
+              1,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "REM>N1": {
+        "events": 2,
+        "events_with_no_exact_control": 1,
+        "unavoidable_unmatched_lower_bound": 1,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "REM",
+            "time_bin": 26,
+            "context_counts": [
+              2,
+              8,
+              0,
+              10,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "REM",
+            "time_bin": 29,
+            "context_counts": [
+              0,
+              0,
+              0,
+              20,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 12,
+            "disjoint_capacity_upper_bound": 6,
+            "deficit_lower_bound": 0
+          }
+        ]
+      },
+      "REM>N2": {
+        "events": 4,
+        "events_with_no_exact_control": 4,
+        "unavoidable_unmatched_lower_bound": 4,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "REM",
+            "time_bin": 17,
+            "context_counts": [
+              0,
+              10,
+              0,
+              10,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "REM",
+            "time_bin": 19,
+            "context_counts": [
+              0,
+              8,
+              0,
+              12,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "REM",
+            "time_bin": 19,
+            "context_counts": [
+              0,
+              10,
+              0,
+              10,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "REM",
+            "time_bin": 20,
+            "context_counts": [
+              0,
+              16,
+              0,
+              3,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      },
+      "REM>W": {
+        "events": 6,
+        "events_with_no_exact_control": 2,
+        "unavoidable_unmatched_lower_bound": 2,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "REM",
+            "time_bin": 19,
+            "context_counts": [
+              3,
+              3,
+              0,
+              13,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "REM",
+            "time_bin": 22,
+            "context_counts": [
+              1,
+              8,
+              0,
+              10,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 1,
+            "disjoint_capacity_upper_bound": 1,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "REM",
+            "time_bin": 25,
+            "context_counts": [
+              6,
+              0,
+              0,
+              12,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 2,
+            "disjoint_capacity_upper_bound": 1,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "REM",
+            "time_bin": 25,
+            "context_counts": [
+              8,
+              0,
+              0,
+              10,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "REM",
+            "time_bin": 26,
+            "context_counts": [
+              5,
+              5,
+              0,
+              10,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 1,
+            "disjoint_capacity_upper_bound": 1,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "REM",
+            "time_bin": 29,
+            "context_counts": [
+              3,
+              4,
+              0,
+              10,
+              3
+            ],
+            "demand": 1,
+            "raw_controls": 1,
+            "disjoint_capacity_upper_bound": 1,
+            "deficit_lower_bound": 0
+          }
+        ]
+      },
+      "W>N1": {
+        "events": 22,
+        "events_with_no_exact_control": 21,
+        "unavoidable_unmatched_lower_bound": 21,
+        "full_matching_impossible": true,
+        "strata": [
+          {
+            "start_stage": "W",
+            "time_bin": 14,
+            "context_counts": [
+              2,
+              8,
+              0,
+              0,
+              10
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 18,
+            "context_counts": [
+              1,
+              9,
+              10,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 19,
+            "context_counts": [
+              2,
+              1,
+              0,
+              16,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 19,
+            "context_counts": [
+              2,
+              2,
+              0,
+              15,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 20,
+            "context_counts": [
+              1,
+              10,
+              0,
+              0,
+              9
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 20,
+            "context_counts": [
+              2,
+              10,
+              0,
+              0,
+              8
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 20,
+            "context_counts": [
+              4,
+              3,
+              0,
+              0,
+              13
+            ],
+            "demand": 1,
+            "raw_controls": 1,
+            "disjoint_capacity_upper_bound": 1,
+            "deficit_lower_bound": 0
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 22,
+            "context_counts": [
+              0,
+              9,
+              0,
+              9,
+              2
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 22,
+            "context_counts": [
+              2,
+              9,
+              0,
+              0,
+              9
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 22,
+            "context_counts": [
+              2,
+              13,
+              1,
+              3,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 22,
+            "context_counts": [
+              2,
+              16,
+              1,
+              0,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 23,
+            "context_counts": [
+              3,
+              0,
+              0,
+              0,
+              17
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 23,
+            "context_counts": [
+              3,
+              8,
+              0,
+              0,
+              9
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 25,
+            "context_counts": [
+              7,
+              0,
+              0,
+              11,
+              2
+            ],
+            "demand": 2,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 2
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 26,
+            "context_counts": [
+              5,
+              5,
+              0,
+              10,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 27,
+            "context_counts": [
+              0,
+              20,
+              0,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 28,
+            "context_counts": [
+              5,
+              2,
+              9,
+              3,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 29,
+            "context_counts": [
+              2,
+              17,
+              0,
+              0,
+              1
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 29,
+            "context_counts": [
+              3,
+              6,
+              0,
+              8,
+              3
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 29,
+            "context_counts": [
+              4,
+              11,
+              0,
+              1,
+              4
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          },
+          {
+            "start_stage": "W",
+            "time_bin": 30,
+            "context_counts": [
+              1,
+              19,
+              0,
+              0,
+              0
+            ],
+            "demand": 1,
+            "raw_controls": 0,
+            "disjoint_capacity_upper_bound": 0,
+            "deficit_lower_bound": 1
+          }
+        ]
+      }
+    },
+    "exclusions": {
+      "edge": 10,
+      "unknown_context": 30,
+      "unknown_pair": 52
+    },
+    "stage_order": [
+      "N1",
+      "N2",
+      "N3",
+      "REM",
+      "W"
+    ],
+    "scope": "Stage/time/context support only; capacity sufficient is not global matching proof"
+  }
+}

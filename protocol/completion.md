@@ -6,4 +6,4 @@ A benchmark beat needs: a predeclared endpoint; compatible public research-use c
 
 If a test fails, preserve its negative evidence and pivot to a different, predeclared biological or data-valid question. Do not re-run until significance emerges, label the same cohort 'external' after tuning, or call a negative a successful project result. Completion is not promised by effort alone.
 
-Status September 30, 2026: clinical dataset-access gate OPEN; paired future outcomes OPEN; 0 model fits; 0 benchmark tests; 0 replicated discoveries; 3 completed ChatGPT rounds, one-round requirement met; further judge submissions stopped. Paper not begun. Engineering suite: 42 tests pass. Strict matched pilot: no fully supported pair, missing statistic.
+Status September 30, 2026: clinical dataset-access gate OPEN; paired future outcomes OPEN; 0 model fits; 0 benchmark tests; 0 replicated discoveries; 3 completed ChatGPT rounds, one-round requirement met; further judge submissions stopped. Paper not begun. Engineering suite: 47 tests pass (October 1). Strict matched pilot: no fully supported pair, missing statistic.

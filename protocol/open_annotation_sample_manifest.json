@@ -1,0 +1,57 @@
+{
+  "frozen_date": "2026-10-01",
+  "selection": "Lexicographically first ten distinct cassette participant prefixes, night 1 only, chosen before new support audit outputs. Prefix identity is provisional until metadata mapping verified; no clinical outcomes. Fixed 60-epoch bins, radius 10; annotation-only.",
+  "source_listing": "https://www.physionet.org/content/sleep-edfx/1.0.0/sleep-cassette/#files-panel",
+  "files": [
+    {
+      "file": "SC4001EC-Hypnogram.edf",
+      "person_prefix": "SC400",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4001EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4011EH-Hypnogram.edf",
+      "person_prefix": "SC401",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4011EH-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4021EH-Hypnogram.edf",
+      "person_prefix": "SC402",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4021EH-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4031EC-Hypnogram.edf",
+      "person_prefix": "SC403",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4031EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4041EC-Hypnogram.edf",
+      "person_prefix": "SC404",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4041EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4051EC-Hypnogram.edf",
+      "person_prefix": "SC405",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4051EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4061EC-Hypnogram.edf",
+      "person_prefix": "SC406",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4061EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4071EC-Hypnogram.edf",
+      "person_prefix": "SC407",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4071EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4081EC-Hypnogram.edf",
+      "person_prefix": "SC408",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4081EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4091EC-Hypnogram.edf",
+      "person_prefix": "SC409",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4091EC-Hypnogram.edf?download"
+    }
+  ]
+}
