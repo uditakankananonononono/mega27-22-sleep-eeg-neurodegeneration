@@ -8,6 +8,9 @@ class ManuscriptTableTests(unittest.TestCase):
         for source,expected in [('sleep_edf_unique',(153,1417,1415)),('sleep_edf_earliest',(78,707,705)),('sleep_edf_second',(77,726,726)),('cap_healthy',(16,77,77))]:
             s=t[source];self.assertEqual((s['recordings'],s['cells'],s['deficits']),expected)
         p=t['sleep_edf_unique']['pairs']
+        self.assertEqual(sum(q['events'] for q in p.values()),18989)
+        self.assertEqual(sum(q['no_exact_pool_events'] for q in p.values()),15489)
+        self.assertEqual(sum(q['unmatched_lower_bound'] for q in p.values()),15799)
         self.assertEqual(p['N2>N3']['cells']-p['N2>N3']['deficits'],2)
         self.assertEqual(sum(q['cells']-q['deficits'] for q in p.values()),2)
     def test_unparsed_rejected(self):

@@ -9,96 +9,112 @@
         "cells": 151,
         "deficits": 151,
         "events": 3346,
+        "no_exact_pool_events": 3136,
         "unmatched_lower_bound": 3153
       },
       "N1>REM": {
         "cells": 72,
         "deficits": 72,
         "events": 523,
+        "no_exact_pool_events": 504,
         "unmatched_lower_bound": 506
       },
       "N1>W": {
         "cells": 139,
         "deficits": 139,
         "events": 1875,
+        "no_exact_pool_events": 1587,
         "unmatched_lower_bound": 1610
       },
       "N2>N1": {
         "cells": 129,
         "deficits": 129,
         "events": 1790,
+        "no_exact_pool_events": 1174,
         "unmatched_lower_bound": 1211
       },
       "N2>N3": {
         "cells": 129,
         "deficits": 127,
         "events": 2595,
+        "no_exact_pool_events": 1717,
         "unmatched_lower_bound": 1819
       },
       "N2>REM": {
         "cells": 138,
         "deficits": 138,
         "events": 767,
+        "no_exact_pool_events": 723,
         "unmatched_lower_bound": 723
       },
       "N2>W": {
         "cells": 126,
         "deficits": 126,
         "events": 974,
+        "no_exact_pool_events": 766,
         "unmatched_lower_bound": 770
       },
       "N3>N1": {
         "cells": 6,
         "deficits": 6,
         "events": 23,
+        "no_exact_pool_events": 21,
         "unmatched_lower_bound": 21
       },
       "N3>N2": {
         "cells": 129,
         "deficits": 129,
         "events": 2387,
+        "no_exact_pool_events": 1965,
         "unmatched_lower_bound": 2018
       },
       "N3>W": {
         "cells": 17,
         "deficits": 17,
         "events": 60,
+        "no_exact_pool_events": 58,
         "unmatched_lower_bound": 58
       },
       "REM>N1": {
         "cells": 84,
         "deficits": 84,
         "events": 635,
+        "no_exact_pool_events": 467,
         "unmatched_lower_bound": 474
       },
       "REM>N2": {
         "cells": 47,
         "deficits": 47,
         "events": 218,
+        "no_exact_pool_events": 173,
         "unmatched_lower_bound": 175
       },
       "REM>W": {
         "cells": 72,
         "deficits": 72,
         "events": 391,
+        "no_exact_pool_events": 344,
         "unmatched_lower_bound": 346
       },
       "W>N1": {
         "cells": 152,
         "deficits": 152,
         "events": 3264,
+        "no_exact_pool_events": 2715,
         "unmatched_lower_bound": 2776
       },
       "W>N2": {
         "cells": 20,
         "deficits": 20,
         "events": 102,
+        "no_exact_pool_events": 101,
         "unmatched_lower_bound": 101
       },
       "W>REM": {
         "cells": 6,
         "deficits": 6,
         "events": 39,
+        "no_exact_pool_events": 38,
         "unmatched_lower_bound": 38
       }
     }
@@ -112,96 +128,112 @@
         "cells": 76,
         "deficits": 76,
         "events": 1634,
+        "no_exact_pool_events": 1522,
         "unmatched_lower_bound": 1533
       },
       "N1>REM": {
         "cells": 30,
         "deficits": 30,
         "events": 196,
+        "no_exact_pool_events": 191,
         "unmatched_lower_bound": 191
       },
       "N1>W": {
         "cells": 70,
         "deficits": 70,
         "events": 891,
+        "no_exact_pool_events": 729,
         "unmatched_lower_bound": 744
       },
       "N2>N1": {
         "cells": 62,
         "deficits": 62,
         "events": 854,
+        "no_exact_pool_events": 568,
         "unmatched_lower_bound": 582
       },
       "N2>N3": {
         "cells": 68,
         "deficits": 66,
         "events": 1361,
+        "no_exact_pool_events": 869,
         "unmatched_lower_bound": 929
       },
       "N2>REM": {
         "cells": 70,
         "deficits": 70,
         "events": 377,
+        "no_exact_pool_events": 352,
         "unmatched_lower_bound": 352
       },
       "N2>W": {
         "cells": 62,
         "deficits": 62,
         "events": 503,
+        "no_exact_pool_events": 391,
         "unmatched_lower_bound": 395
       },
       "N3>N1": {
         "cells": 2,
         "deficits": 2,
         "events": 8,
+        "no_exact_pool_events": 7,
         "unmatched_lower_bound": 7
       },
       "N3>N2": {
         "cells": 68,
         "deficits": 68,
         "events": 1269,
+        "no_exact_pool_events": 1033,
         "unmatched_lower_bound": 1061
       },
       "N3>W": {
         "cells": 9,
         "deficits": 9,
         "events": 30,
+        "no_exact_pool_events": 29,
         "unmatched_lower_bound": 29
       },
       "REM>N1": {
         "cells": 39,
         "deficits": 39,
         "events": 240,
+        "no_exact_pool_events": 177,
         "unmatched_lower_bound": 178
       },
       "REM>N2": {
         "cells": 26,
         "deficits": 26,
         "events": 127,
+        "no_exact_pool_events": 100,
         "unmatched_lower_bound": 101
       },
       "REM>W": {
         "cells": 36,
         "deficits": 36,
         "events": 200,
+        "no_exact_pool_events": 178,
         "unmatched_lower_bound": 180
       },
       "W>N1": {
         "cells": 78,
         "deficits": 78,
         "events": 1612,
+        "no_exact_pool_events": 1359,
         "unmatched_lower_bound": 1386
       },
       "W>N2": {
         "cells": 8,
         "deficits": 8,
         "events": 47,
+        "no_exact_pool_events": 46,
         "unmatched_lower_bound": 46
       },
       "W>REM": {
         "cells": 3,
         "deficits": 3,
         "events": 20,
+        "no_exact_pool_events": 19,
         "unmatched_lower_bound": 19
       }
     }
@@ -215,96 +247,112 @@
         "cells": 77,
         "deficits": 77,
         "events": 1733,
+        "no_exact_pool_events": 1635,
         "unmatched_lower_bound": 1641
       },
       "N1>REM": {
         "cells": 42,
         "deficits": 42,
         "events": 327,
+        "no_exact_pool_events": 313,
         "unmatched_lower_bound": 315
       },
       "N1>W": {
         "cells": 70,
         "deficits": 70,
         "events": 992,
+        "no_exact_pool_events": 866,
         "unmatched_lower_bound": 874
       },
       "N2>N1": {
         "cells": 68,
         "deficits": 68,
         "events": 940,
+        "no_exact_pool_events": 610,
         "unmatched_lower_bound": 633
       },
       "N2>N3": {
         "cells": 63,
         "deficits": 63,
         "events": 1264,
+        "no_exact_pool_events": 864,
         "unmatched_lower_bound": 906
       },
       "N2>REM": {
         "cells": 70,
         "deficits": 70,
         "events": 400,
+        "no_exact_pool_events": 379,
         "unmatched_lower_bound": 379
       },
       "N2>W": {
         "cells": 66,
         "deficits": 66,
         "events": 481,
+        "no_exact_pool_events": 382,
         "unmatched_lower_bound": 382
       },
       "N3>N1": {
         "cells": 4,
         "deficits": 4,
         "events": 15,
+        "no_exact_pool_events": 14,
         "unmatched_lower_bound": 14
       },
       "N3>N2": {
         "cells": 63,
         "deficits": 63,
         "events": 1148,
+        "no_exact_pool_events": 957,
         "unmatched_lower_bound": 983
       },
       "N3>W": {
         "cells": 8,
         "deficits": 8,
         "events": 30,
+        "no_exact_pool_events": 29,
         "unmatched_lower_bound": 29
       },
       "REM>N1": {
         "cells": 45,
         "deficits": 45,
         "events": 395,
+        "no_exact_pool_events": 290,
         "unmatched_lower_bound": 296
       },
       "REM>N2": {
         "cells": 22,
         "deficits": 22,
         "events": 95,
+        "no_exact_pool_events": 76,
         "unmatched_lower_bound": 77
       },
       "REM>W": {
         "cells": 37,
         "deficits": 37,
         "events": 194,
+        "no_exact_pool_events": 169,
         "unmatched_lower_bound": 169
       },
       "W>N1": {
         "cells": 76,
         "deficits": 76,
         "events": 1675,
+        "no_exact_pool_events": 1377,
         "unmatched_lower_bound": 1411
       },
       "W>N2": {
         "cells": 12,
         "deficits": 12,
         "events": 55,
+        "no_exact_pool_events": 55,
         "unmatched_lower_bound": 55
       },
       "W>REM": {
         "cells": 3,
         "deficits": 3,
         "events": 19,
+        "no_exact_pool_events": 19,
         "unmatched_lower_bound": 19
       }
     }
@@ -318,66 +366,77 @@
         "cells": 7,
         "deficits": 7,
         "events": 61,
+        "no_exact_pool_events": 60,
         "unmatched_lower_bound": 60
       },
       "N1>REM": {
         "cells": 1,
         "deficits": 1,
         "events": 7,
+        "no_exact_pool_events": 7,
         "unmatched_lower_bound": 7
       },
       "N1>W": {
         "cells": 2,
         "deficits": 2,
         "events": 15,
+        "no_exact_pool_events": 14,
         "unmatched_lower_bound": 14
       },
       "N2>N1": {
         "cells": 3,
         "deficits": 3,
         "events": 16,
+        "no_exact_pool_events": 11,
         "unmatched_lower_bound": 12
       },
       "N2>N3": {
         "cells": 16,
         "deficits": 16,
         "events": 98,
+        "no_exact_pool_events": 80,
         "unmatched_lower_bound": 81
       },
       "N2>REM": {
         "cells": 14,
         "deficits": 14,
         "events": 60,
+        "no_exact_pool_events": 53,
         "unmatched_lower_bound": 53
       },
       "N2>W": {
         "cells": 3,
         "deficits": 3,
         "events": 18,
+        "no_exact_pool_events": 13,
         "unmatched_lower_bound": 13
       },
       "N3>N2": {
         "cells": 9,
         "deficits": 9,
         "events": 53,
+        "no_exact_pool_events": 31,
         "unmatched_lower_bound": 32
       },
       "REM>N1": {
         "cells": 2,
         "deficits": 2,
         "events": 10,
+        "no_exact_pool_events": 7,
         "unmatched_lower_bound": 7
       },
       "REM>N2": {
         "cells": 13,
         "deficits": 13,
         "events": 53,
+        "no_exact_pool_events": 49,
         "unmatched_lower_bound": 49
       },
       "W>N1": {
         "cells": 7,
         "deficits": 7,
         "events": 54,
+        "no_exact_pool_events": 50,
         "unmatched_lower_bound": 50
       }
     }

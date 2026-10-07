@@ -46,6 +46,12 @@ Machine-generated tables in `verified_tables.md` reconcile filenames before aggr
 
 The tables also report retained event counts and summed unmatched lower bounds. Those totals describe the frozen thinning/control design, not independent trials. They are not used to compute significance or confidence intervals. A direction having more unsupported cells need not have a stronger physiologic disruption; event availability, context composition and stable-control scarcity all contribute. Reported support is conditional on the stage grid and source-specific annotation handling.
 
+## Why capacity fails
+
+The audit distinguishes absent exact control pools from competition for disjoint controls. Across eligible unique cassette cells, 15,489 of 18,989 retained events have no exact control pool. The disjoint-capacity lower bound rises to 15,799 unmatched events, an additional 310 beyond empty-pool failures. Healthy CAP has 375 empty-pool events among 445 retained events and a bound of 378 unmatched, three more than the empty-pool count. These sums are descriptive accounting for retained directed-pair events, not independent observations or a causal decomposition. Cross-stratum overlap could force still more unmatched events.
+
+Thus control absence is the main counted source of infeasibility under this contract; enforcing nonoverlap introduces additional deficits. This does not show which individual exact-key component causes scarcity. Testing weaker keys after seeing these outputs would be a new design, not validation of the failed one. A capacity defect is distinct from an algorithmic failure: no search procedure can supply a control that is absent from the eligible pool.
+
 ## Interpretation
 
 The frozen comparison is supported rarely, not universally impossible. Replacing greedy matching alone cannot overcome a positive capacity deficit. The failure concerns exact context/time controls and full matching, not a general inability to study transitions. A different estimand could be evaluated in a separately frozen study, but changing it after these outputs would not rescue or confirm the original test. No causal or neurodegenerative mechanism is inferred.
