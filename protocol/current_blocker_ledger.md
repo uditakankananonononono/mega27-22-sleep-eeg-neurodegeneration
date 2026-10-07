@@ -17,4 +17,4 @@ The original clinical endpoint was prospective cognitive impairment associated w
 
 ## Not completed
 
-No clinical model fitted, biological biomarker demonstrated, same-task benchmark beaten, independent clinical replication obtained or 50-page results paper produced. Three judge rounds are archived; the corrected one-round requirement is met. More judge rounds are withdrawn. Fifty-seven passing engineering tests establish software checks only. Isolated-environment reproduction and byte-identical ten-subject annotation outputs are documented separately.
+No clinical model fitted, biological biomarker demonstrated, same-task benchmark beaten, independent clinical replication obtained or 50-page results paper produced. Three judge rounds are archived; the corrected one-round requirement is met. More judge rounds are withdrawn. Fifty-nine passing engineering tests establish software checks only. Isolated-environment reproduction and byte-identical ten-subject annotation outputs are documented separately.

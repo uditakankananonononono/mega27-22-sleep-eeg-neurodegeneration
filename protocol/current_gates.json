@@ -1,0 +1,25 @@
+{
+  "deliverable": "Open sleep-physiology/identifiability study",
+  "neurodegeneration": "Untested motivation only",
+  "gates": {
+    "clinical_biomarker_demonstrated": false,
+    "clinical_benchmark_win": false,
+    "independent_clinical_replication": false,
+    "expanded_census_signal_effect_measured": false,
+    "selected_cell_signal_plan_executed": false,
+    "formatted_body_pages_measured": false,
+    "fifty_text_body_pages": false,
+    "final_file_delivered": false
+  },
+  "software_tests": 59,
+  "working_manuscript_words_including_headings_references": 3449,
+  "census": {
+    "sleep_edf_unique_recordings": 153,
+    "sleep_edf_eligible_cells": 1417,
+    "sleep_edf_deficit_cells": 1415,
+    "cap_recordings": 16,
+    "cap_eligible_cells": 77,
+    "cap_deficit_cells": 77
+  },
+  "review": "Per need, no fixed round count; exact revised review archive retained"
+}
