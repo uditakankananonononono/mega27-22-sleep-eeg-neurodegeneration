@@ -29,3 +29,7 @@ Data leads and access: see protocol/sources.md. Source page descriptions do not 
 A stage-only common-support capacity audit proves the frozen matched comparisons cannot achieve full support in the pilot. It does not rescue the clinical endpoint or establish a biomarker. See `results/README.md`.
 
 Expanded annotation-only census: 78 participants, 707 >=3-event cells, 705 capacity deficits, two feasible stage-only matched cells. No EEG effect or disease claim. See `protocol/open_physiology_pivot.md` and `results/README.md`.
+
+## Manuscript completion gate
+
+The working manuscript is 2806 words including headings and references (October 7). No PDF/body-page count has been measured. The 50+ Times New Roman text-body-page gate is **false**; figures, tables, headings, references and appendices do not count. No padding is planned. The annotation-versus-EEG-effect check is a written prospective engineering plan, not an executed result.
