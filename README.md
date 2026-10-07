@@ -32,4 +32,4 @@ Expanded annotation-only census: 78 participants, 707 >=3-event cells, 705 capac
 
 ## Manuscript completion gate
 
-The working manuscript is 3452 words including headings and references (October 7). No PDF/body-page count has been measured. The 50+ Times New Roman text-body-page gate is **false**; figures, tables, headings, references and appendices do not count. No padding is planned. The annotation-versus-EEG-effect check is a written prospective engineering plan, not an executed result.
+The working manuscript is 3449 words including headings and references (October 7). No PDF/body-page count has been measured. The 50+ Times New Roman text-body-page gate is **false**; figures, tables, headings, references and appendices do not count. No padding is planned. The annotation-versus-EEG-effect check is a written prospective engineering plan, not an executed result.
