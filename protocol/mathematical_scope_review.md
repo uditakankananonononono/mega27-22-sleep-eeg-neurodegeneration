@@ -12,3 +12,7 @@ Important scope limits:
 - No weighting, coarsening or dropping unmatched events is introduced here. Each changes the comparison or target population and would need its own explicit protocol.
 - Two feasible cells do not establish signal QC, representative samples or an unbiased physiologic contrast.
 - Fixed time bins use different source annotation origins. Rates should not be pooled as cross-source physiology without origin reconciliation.
+
+## Explicit failure of the converse
+
+A synthetic sequence N3,N2,N3,N3,N3,N3,N2,N3,N2,N3, with radius 1 and bin size 30, retains two N3->N2 events. Each of their exact context strata has one disjoint-control capacity, so the summed deficit is zero. The strata's candidate controls share an epoch, and exhaustive global enumeration matches at most one of the two events. This is a counterexample to interpreting zero deficit as global feasibility, not a real-data or minimum-three-event result. A dedicated regression checks the zero bound and the exact maximum. The study's census thresholds remain unchanged.

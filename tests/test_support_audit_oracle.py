@@ -53,3 +53,11 @@ class SupportBoundOracleTests(unittest.TestCase):
                     if p['full_matching_impossible']:self.assertLess(best,count)
                     checks+=1
         self.assertEqual(checks,3093)
+
+    def test_zero_bound_is_not_global_feasibility(self):
+        stages=['N3','N2','N3','N3','N3','N3','N2','N3','N2','N3']
+        p=audit_common_support(stages,bin_epochs=30,context_radius=1)['pairs']['N3>N2']
+        self.assertEqual(p['events'],2)
+        self.assertFalse(p['full_matching_impossible'])
+        self.assertEqual(p['unavoidable_unmatched_lower_bound'],0)
+        self.assertEqual(oracle(stages,30,1)['N3>N2'],(2,1))

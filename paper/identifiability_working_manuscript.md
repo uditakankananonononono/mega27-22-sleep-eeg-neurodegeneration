@@ -62,7 +62,7 @@ Annotations rather than EEG effects drive the expanded results. Missing stage in
 
 ## Primary sources and reproducibility
 
-Sleep-EDF: https://www.physionet.org/content/sleep-edfx/1.0.0/ . CAP: https://physionet.org/content/capslpdb/1.0.0/ . CAP reader: https://physionet.org/files/capslpdb/1.0.0/ScoringReader.m?download . Frozen manifests, complete stratum outputs, checksums and reproduction scripts are in the repository. The engineering suite has 57 passing tests; that number is software evidence only.
+Sleep-EDF: https://www.physionet.org/content/sleep-edfx/1.0.0/ . CAP: https://physionet.org/content/capslpdb/1.0.0/ . CAP reader: https://physionet.org/files/capslpdb/1.0.0/ScoringReader.m?download . Frozen manifests, complete stratum outputs, checksums and reproduction scripts are in the repository. The engineering suite has 58 passing tests; that number is software evidence only.
 
 
 ## Reviewed references
@@ -115,3 +115,5 @@ Conversely, a cell with a positive annotation capacity deficit cannot acquire fu
 ## Predeclared signal-check design
 
 A proposed two-recording engineering check is archived in `protocol/annotation_effect_validation_plan.md`. It has not run. It would use only the two previously identified support-feasible first nights, verify source hashes and channel/grid metadata, apply the existing crude fixed epoch guard, then rerun the identical support contract. The output would distinguish event removal, control removal, altered assignments and a genuinely missing estimate. Choosing these cells because they were supported makes the experiment selected by feasibility; it cannot estimate how often EEG effects occur in a population. The pilot's peak-to-peak guard is not a validated artifact detector. A surviving descriptive value would therefore remain a method demonstration, without inferential significance or clinical interpretation.
+
+A small explicit counterexample illustrates the bound's one-sided interpretation. The synthetic sequence N3,N2,N3,N3,N3,N3,N2,N3,N2,N3, with context radius 1 and a single 30-epoch bin, has two retained N3-to-N2 events and zero summed stratum deficit. Yet the two strata's control opportunities overlap, and exhaustive enumeration admits only one match. A regression preserves this example. It is below the real study's three-event reporting floor and uses different synthetic test parameters; it does not alter the census contract or add a physiologic result.
