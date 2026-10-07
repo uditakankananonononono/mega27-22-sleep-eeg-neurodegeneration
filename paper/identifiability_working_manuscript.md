@@ -34,14 +34,31 @@ The earliest-available subset includes two participants whose first nights were 
 
 Two first-night N2-to-N3 cells, subjects 10 and 40, admit complete assignments of six and three events. Archived boundary indices demonstrate feasible stage-only control selection. A zero placeholder vector was used only to exercise the matching routine; no resulting signal statistic is retained or interpreted. Both participants have second nights without a support-feasible >=3-event cell. The conservative audit cannot conclude that EEG features fail to repeat, only that this same exact matched comparison cannot be evaluated on both nights.
 
+## Relation to existing work
+
+Lack of common support is an established statistical problem, not a newly discovered principle. The reviewed overlap-weighting literature explains that restricting or reweighting the available comparison population can change the estimand [4]. That causal treatment framework does not establish causality for sleep transitions. Our before/after context contains post-transition labels, so treating its histogram as a causal adjustment set would require additional justification. We make no such claim.
+
+Sleep-transition physiology and brain dynamics also have substantial prior art. Whole-brain transition work [5], slow-wave synchronization models [6] and proof-of-principle attractor-state analyses [7] already address these subjects. Our annotation audit measures none of their signal-level mechanisms. Its narrow contribution is the documented empirical support boundary of this exact frozen contract, together with an outcome-blind implementation and reproducible records. Priority over equivalent support audits has not been established.
+
 ## Interpretation
 
 The frozen comparison is supported rarely, not universally impossible. Replacing greedy matching alone cannot overcome a positive capacity deficit. The failure concerns exact context/time controls and full matching, not a general inability to study transitions. A different estimand could be evaluated in a separately frozen study, but changing it after these outputs would not rescue or confirm the original test. No causal or neurodegenerative mechanism is inferred.
 
 ## Limits and work remaining
 
-Annotations rather than EEG effects drive the expanded results. Missing stage intervals, recording-origin differences and scoring conventions affect support. The study does not establish optimal matching for arbitrary contexts, clinical independence, cognitive outcomes, age-adjusted disease contrasts, signal QC or independent biomarker validation. Unique-recording reconciliation corrected an initial double-count; subset totals must not be summed without deduplication. A complete paper still needs literature/novelty grounding, mathematical review, verified tables and figures, and format inspection. This working source does not satisfy the 50-page text-body floor.
+Annotations rather than EEG effects drive the expanded results. Missing stage intervals, recording-origin differences and scoring conventions affect support. The study does not establish optimal matching for arbitrary contexts, clinical independence, cognitive outcomes, age-adjusted disease contrasts, signal QC or independent biomarker validation. Unique-recording reconciliation corrected an initial double-count; subset totals must not be summed without deduplication. A preliminary literature and internal mathematical scope review are archived. A complete paper still needs fuller priority screening, independent mathematical review, verified figures, and format inspection. This working source does not satisfy the 50-page text-body floor.
 
 ## Primary sources and reproducibility
 
-Sleep-EDF: https://www.physionet.org/content/sleep-edfx/1.0.0/ . CAP: https://physionet.org/content/capslpdb/1.0.0/ . CAP reader: https://physionet.org/files/capslpdb/1.0.0/ScoringReader.m?download . Frozen manifests, complete stratum outputs, checksums and reproduction scripts are in the repository. The engineering suite has 54 passing tests; that number is software evidence only.
+Sleep-EDF: https://www.physionet.org/content/sleep-edfx/1.0.0/ . CAP: https://physionet.org/content/capslpdb/1.0.0/ . CAP reader: https://physionet.org/files/capslpdb/1.0.0/ScoringReader.m?download . Frozen manifests, complete stratum outputs, checksums and reproduction scripts are in the repository. The engineering suite has 55 passing tests; that number is software evidence only.
+
+
+## Reviewed references
+
+[4] Overlap, matching, or entropy weights: what are we weighting for? https://arxiv.org/html/2210.12968 . Supports the established common-support and estimand distinction, not our sleep findings.
+
+[5] Discovery of key whole-brain transitions and dynamics during human wakefulness and non-REM sleep. https://www.nature.com/articles/s41467-019-08934-3 . Prior sleep-transition dynamics work.
+
+[6] Slow wave synchronization and sleep state transitions. https://www.nature.com/articles/s41598-022-11513-0 . Prior slow-wave/state-transition physiology.
+
+[7] Dynamics of sleep: Exploring critical transitions and early warning signals. https://pubmed.ncbi.nlm.nih.gov/32304989/ . Prior proof-of-principle attractor-state work, not clinical early-neurodegeneration validation.
