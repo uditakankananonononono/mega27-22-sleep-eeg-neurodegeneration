@@ -1,0 +1,7 @@
+# Open sleep-physiology/identifiability study, October 7, 2026
+
+The deliverable has pivoted to an explicitly descriptive open sleep-physiology/identifiability study. Neurodegeneration is untested motivation only. The original prospective biomarker, benchmark win and independent clinical replication have not been achieved and are not claimed by this pivot.
+
+Next unit: expand the same fixed annotation support audit to every cassette participant's earliest available night. The first ten participants were already inspected; this is an expanded census, not a clean validation holdout. Full-context radius 10, time bins 60 epochs and >=3-event reporting floor remain unchanged. Stage 3/4 harmonization and annotation-only exclusions remain unchanged. Use one recording per verified subject. Summarize participant support coverage, cell-level deficits, age coverage and metadata. Any age breakdown is descriptive, not a neurodegeneration effect or causal relationship. No signal-derived EEG effect is measured by annotation-only data. No hypothesis significance test or benchmark superiority will be inferred from this expansion.
+
+Frozen manifest: `all_cassette_first_available_manifest.json`. The file list is selected before expanded support outputs. All bytes must match operator checksums; metadata must match its frozen hash. Preserve all failures. A substantial paper still requires actual analysis and honest limitations, not 50 pages of scaffold padding.
