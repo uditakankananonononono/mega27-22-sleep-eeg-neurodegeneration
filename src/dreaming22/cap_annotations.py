@@ -7,10 +7,17 @@ import re
 from .features import STAGES
 MAP={'SLEEP-S0':'W','SLEEP-S1':'N1','SLEEP-S2':'N2','SLEEP-S3':'N3','SLEEP-S4':'N3','SLEEP-REM':'REM'}
 def parse_cap_stages(text):
-    events=[];offset=0;previous=None
+    events=[];offset=0;previous=None;columns=None
     for line in text.splitlines():
         fields=line.split('\t')
-        if len(fields)<5 or not fields[3].startswith('SLEEP-'):continue
+        if fields[0]=='Sleep Stage':
+            columns={name.replace('Duration [s]','Duration[s]'):i for i,name in enumerate(fields)}
+            if not all(k in columns for k in ('Time [hh:mm:ss]','Event','Duration[s]')):raise ValueError('Missing staging columns')
+            continue
+        if columns is None:continue
+        if len(fields)<=max(columns.values()):continue
+        fields=[fields[columns['Sleep Stage']],'',fields[columns['Time [hh:mm:ss]']],fields[columns['Event']],fields[columns['Duration[s]']]]
+        if not fields[3].startswith('SLEEP-'):continue
         if not re.fullmatch(r'\d{2}[:.]\d{2}[:.]\d{2}',fields[2]):raise ValueError('Bad stage clock')
         h,m,s=map(int,re.split('[:.]',fields[2]))
         if h>23 or m>59 or s>59:raise ValueError('Bad stage clock')
