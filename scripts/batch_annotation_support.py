@@ -32,7 +32,7 @@ def run(manifest_path,data_dir,checksum_path,metadata_path):
         records.append(dict(file=name,subject_id=subject,night=night,metadata=meta,sha256=expected,
                             annotation_epochs=epochs,supported_event_count_pairs=sum(v['events']>=3 for v in audit['pairs'].values()),
                             capacity_not_disproven_pairs=sum(v['events']>=3 and not v['full_matching_impossible'] for v in audit['pairs'].values()),audit=audit))
-    return dict(scope='Exploratory annotation-only feasibility, one previously inspected participant plus nine newly audited. No raw EEG QC, no effect or cognition; no global matching sufficiency claim.',parameters=dict(bin_epochs=60,context_radius=10,min_events=3),records=records)
+    return dict(scope=manifest.get('analysis_scope','Exploratory annotation-only feasibility, one previously inspected participant plus nine newly audited. No raw EEG QC, no effect or cognition; no global matching sufficiency claim.'),parameters=dict(bin_epochs=60,context_radius=10,min_events=3),records=records)
 if __name__=='__main__':
     a=argparse.ArgumentParser()
     for name in ('manifest','data-dir','checksum','metadata','out'):a.add_argument('--'+name,type=Path,required=True)

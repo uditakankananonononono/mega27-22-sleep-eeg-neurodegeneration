@@ -393,5 +393,6 @@
       "person_prefix": "SC482",
       "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4821GC-Hypnogram.edf?download"
     }
-  ]
+  ],
+  "analysis_scope": "Exploratory annotation-only census of 78 cassette participants, earliest available night. First ten participants previously inspected. No raw EEG QC, effect, cognition or confirmatory validation; capacity sufficiency is not global feasibility."
 }

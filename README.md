@@ -1,6 +1,6 @@
 # DREAMING 22: sleep EEG and early neurodegenerative signatures
 
-Status, 2026-09-30: protocol/engineering scaffold only. No participant PSG/outcome data acquired, no model fit, no measured biomarker, and no independent validation. Not a diagnostic device or Alzheimer's classifier.
+Status, 2026-10-07: deliverable pivoted to an open sleep-physiology/identifiability study. Neurodegeneration is untested motivation only; the original clinical biomarker endpoint is not achieved. No participant PSG/outcome data acquired, no model fit, no measured biomarker, and no independent validation. Not a diagnostic device or Alzheimer's classifier.
 
 Goal: discover a non-invasive sleep-EEG-derived *candidate biomarker* for early neurodegeneration and test whether it generalizes across genuinely independent datasets. A candidate is not a clinically validated biomarker, early-disease diagnosis, causal mechanism, or confirmed Alzheimer-specific signal. Question: Which stage-specific changes in sleep-brain dynamics associate with current cognitive impairment or future decline, beyond age and sleep/clinical confounders? Start with spectral power, complexity, sleep-stage transitions, and a REM-focused hypothesis. Connectivity and cross-frequency coupling are conditional on sufficient comparable EEG electrodes, viable signal quality, and predeclared methods. A two-lead PSG is not a high-density brain network.
 
@@ -27,3 +27,5 @@ Data leads and access: see protocol/sources.md. Source page descriptions do not 
 `matched_controls.py` adds descriptive, exact within-recording context/time/count-matched controls. No exchangeable permutation null or disease result is established. See `protocol/matched_control_contract.md` and `protocol/open_route_audit.md`.
 
 A stage-only common-support capacity audit proves the frozen matched comparisons cannot achieve full support in the pilot. It does not rescue the clinical endpoint or establish a biomarker. See `results/README.md`.
+
+Expanded annotation-only census: 78 participants, 707 >=3-event cells, 705 capacity deficits, two feasible stage-only matched cells. No EEG effect or disease claim. See `protocol/open_physiology_pivot.md` and `results/README.md`.

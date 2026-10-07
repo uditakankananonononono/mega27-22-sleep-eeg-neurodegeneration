@@ -1,0 +1,59 @@
+{
+  "scope": "Stage-only greedy assignment check using a zero placeholder vector; no EEG effect values.",
+  "cells": [
+    {
+      "subject": 10,
+      "pair": "N2>N3",
+      "events": 6,
+      "matched_events": 6,
+      "complete_support": true,
+      "indices": [
+        [
+          807,
+          819
+        ],
+        [
+          813,
+          821
+        ],
+        [
+          1025,
+          1020
+        ],
+        [
+          1029,
+          1037
+        ],
+        [
+          1031,
+          1039
+        ],
+        [
+          1087,
+          1099
+        ]
+      ]
+    },
+    {
+      "subject": 40,
+      "pair": "N2>N3",
+      "events": 3,
+      "matched_events": 3,
+      "complete_support": true,
+      "indices": [
+        [
+          995,
+          985
+        ],
+        [
+          1179,
+          1172
+        ],
+        [
+          1183,
+          1170
+        ]
+      ]
+    }
+  ]
+}
