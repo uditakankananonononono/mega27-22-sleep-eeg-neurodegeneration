@@ -40,6 +40,12 @@ Lack of common support is an established statistical problem, not a newly discov
 
 Sleep-transition physiology and brain dynamics also have substantial prior art. Whole-brain transition work [5], slow-wave synchronization models [6] and proof-of-principle attractor-state analyses [7] already address these subjects. Our annotation audit measures none of their signal-level mechanisms. Its narrow contribution is the documented empirical support boundary of this exact frozen contract, together with an outcome-blind implementation and reproducible records. Priority over equivalent support audits has not been established.
 
+## Stage-pair support breakdown
+
+Machine-generated tables in `verified_tables.md` reconcile filenames before aggregation and check the reported totals against archived outputs. Among 129 unique-recording N2-to-N3 cells with at least three retained events, 127 have deficits and two admit complete stage-only assignments. The opposite N3-to-N2 direction has 129 eligible cells, all with deficits. N1-to-N2 has 151 eligible cells, all deficient; N2-to-REM has 138, all deficient. These are cell-level feasibility counts, not estimates of transition frequency, participant prevalence, direction-specific EEG power or biological asymmetry. Cells within a recording and repeated nights within a person are dependent.
+
+The tables also report retained event counts and summed unmatched lower bounds. Those totals describe the frozen thinning/control design, not independent trials. They are not used to compute significance or confidence intervals. A direction having more unsupported cells need not have a stronger physiologic disruption; event availability, context composition and stable-control scarcity all contribute. Reported support is conditional on the stage grid and source-specific annotation handling.
+
 ## Interpretation
 
 The frozen comparison is supported rarely, not universally impossible. Replacing greedy matching alone cannot overcome a positive capacity deficit. The failure concerns exact context/time controls and full matching, not a general inability to study transitions. A different estimand could be evaluated in a separately frozen study, but changing it after these outputs would not rescue or confirm the original test. No causal or neurodegenerative mechanism is inferred.
@@ -50,7 +56,7 @@ Annotations rather than EEG effects drive the expanded results. Missing stage in
 
 ## Primary sources and reproducibility
 
-Sleep-EDF: https://www.physionet.org/content/sleep-edfx/1.0.0/ . CAP: https://physionet.org/content/capslpdb/1.0.0/ . CAP reader: https://physionet.org/files/capslpdb/1.0.0/ScoringReader.m?download . Frozen manifests, complete stratum outputs, checksums and reproduction scripts are in the repository. The engineering suite has 55 passing tests; that number is software evidence only.
+Sleep-EDF: https://www.physionet.org/content/sleep-edfx/1.0.0/ . CAP: https://physionet.org/content/capslpdb/1.0.0/ . CAP reader: https://physionet.org/files/capslpdb/1.0.0/ScoringReader.m?download . Frozen manifests, complete stratum outputs, checksums and reproduction scripts are in the repository. The engineering suite has 57 passing tests; that number is software evidence only.
 
 
 ## Reviewed references

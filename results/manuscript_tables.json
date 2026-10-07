@@ -1,0 +1,385 @@
+{
+  "scope": "Descriptive annotation support. Event sums are within retained pair cells, not independent people or EEG effects. Sources not pooled.",
+  "sleep_edf_unique": {
+    "recordings": 153,
+    "cells": 1417,
+    "deficits": 1415,
+    "pairs": {
+      "N1>N2": {
+        "cells": 151,
+        "deficits": 151,
+        "events": 3346,
+        "unmatched_lower_bound": 3153
+      },
+      "N1>REM": {
+        "cells": 72,
+        "deficits": 72,
+        "events": 523,
+        "unmatched_lower_bound": 506
+      },
+      "N1>W": {
+        "cells": 139,
+        "deficits": 139,
+        "events": 1875,
+        "unmatched_lower_bound": 1610
+      },
+      "N2>N1": {
+        "cells": 129,
+        "deficits": 129,
+        "events": 1790,
+        "unmatched_lower_bound": 1211
+      },
+      "N2>N3": {
+        "cells": 129,
+        "deficits": 127,
+        "events": 2595,
+        "unmatched_lower_bound": 1819
+      },
+      "N2>REM": {
+        "cells": 138,
+        "deficits": 138,
+        "events": 767,
+        "unmatched_lower_bound": 723
+      },
+      "N2>W": {
+        "cells": 126,
+        "deficits": 126,
+        "events": 974,
+        "unmatched_lower_bound": 770
+      },
+      "N3>N1": {
+        "cells": 6,
+        "deficits": 6,
+        "events": 23,
+        "unmatched_lower_bound": 21
+      },
+      "N3>N2": {
+        "cells": 129,
+        "deficits": 129,
+        "events": 2387,
+        "unmatched_lower_bound": 2018
+      },
+      "N3>W": {
+        "cells": 17,
+        "deficits": 17,
+        "events": 60,
+        "unmatched_lower_bound": 58
+      },
+      "REM>N1": {
+        "cells": 84,
+        "deficits": 84,
+        "events": 635,
+        "unmatched_lower_bound": 474
+      },
+      "REM>N2": {
+        "cells": 47,
+        "deficits": 47,
+        "events": 218,
+        "unmatched_lower_bound": 175
+      },
+      "REM>W": {
+        "cells": 72,
+        "deficits": 72,
+        "events": 391,
+        "unmatched_lower_bound": 346
+      },
+      "W>N1": {
+        "cells": 152,
+        "deficits": 152,
+        "events": 3264,
+        "unmatched_lower_bound": 2776
+      },
+      "W>N2": {
+        "cells": 20,
+        "deficits": 20,
+        "events": 102,
+        "unmatched_lower_bound": 101
+      },
+      "W>REM": {
+        "cells": 6,
+        "deficits": 6,
+        "events": 39,
+        "unmatched_lower_bound": 38
+      }
+    }
+  },
+  "sleep_edf_earliest": {
+    "recordings": 78,
+    "cells": 707,
+    "deficits": 705,
+    "pairs": {
+      "N1>N2": {
+        "cells": 76,
+        "deficits": 76,
+        "events": 1634,
+        "unmatched_lower_bound": 1533
+      },
+      "N1>REM": {
+        "cells": 30,
+        "deficits": 30,
+        "events": 196,
+        "unmatched_lower_bound": 191
+      },
+      "N1>W": {
+        "cells": 70,
+        "deficits": 70,
+        "events": 891,
+        "unmatched_lower_bound": 744
+      },
+      "N2>N1": {
+        "cells": 62,
+        "deficits": 62,
+        "events": 854,
+        "unmatched_lower_bound": 582
+      },
+      "N2>N3": {
+        "cells": 68,
+        "deficits": 66,
+        "events": 1361,
+        "unmatched_lower_bound": 929
+      },
+      "N2>REM": {
+        "cells": 70,
+        "deficits": 70,
+        "events": 377,
+        "unmatched_lower_bound": 352
+      },
+      "N2>W": {
+        "cells": 62,
+        "deficits": 62,
+        "events": 503,
+        "unmatched_lower_bound": 395
+      },
+      "N3>N1": {
+        "cells": 2,
+        "deficits": 2,
+        "events": 8,
+        "unmatched_lower_bound": 7
+      },
+      "N3>N2": {
+        "cells": 68,
+        "deficits": 68,
+        "events": 1269,
+        "unmatched_lower_bound": 1061
+      },
+      "N3>W": {
+        "cells": 9,
+        "deficits": 9,
+        "events": 30,
+        "unmatched_lower_bound": 29
+      },
+      "REM>N1": {
+        "cells": 39,
+        "deficits": 39,
+        "events": 240,
+        "unmatched_lower_bound": 178
+      },
+      "REM>N2": {
+        "cells": 26,
+        "deficits": 26,
+        "events": 127,
+        "unmatched_lower_bound": 101
+      },
+      "REM>W": {
+        "cells": 36,
+        "deficits": 36,
+        "events": 200,
+        "unmatched_lower_bound": 180
+      },
+      "W>N1": {
+        "cells": 78,
+        "deficits": 78,
+        "events": 1612,
+        "unmatched_lower_bound": 1386
+      },
+      "W>N2": {
+        "cells": 8,
+        "deficits": 8,
+        "events": 47,
+        "unmatched_lower_bound": 46
+      },
+      "W>REM": {
+        "cells": 3,
+        "deficits": 3,
+        "events": 20,
+        "unmatched_lower_bound": 19
+      }
+    }
+  },
+  "sleep_edf_second": {
+    "recordings": 77,
+    "cells": 726,
+    "deficits": 726,
+    "pairs": {
+      "N1>N2": {
+        "cells": 77,
+        "deficits": 77,
+        "events": 1733,
+        "unmatched_lower_bound": 1641
+      },
+      "N1>REM": {
+        "cells": 42,
+        "deficits": 42,
+        "events": 327,
+        "unmatched_lower_bound": 315
+      },
+      "N1>W": {
+        "cells": 70,
+        "deficits": 70,
+        "events": 992,
+        "unmatched_lower_bound": 874
+      },
+      "N2>N1": {
+        "cells": 68,
+        "deficits": 68,
+        "events": 940,
+        "unmatched_lower_bound": 633
+      },
+      "N2>N3": {
+        "cells": 63,
+        "deficits": 63,
+        "events": 1264,
+        "unmatched_lower_bound": 906
+      },
+      "N2>REM": {
+        "cells": 70,
+        "deficits": 70,
+        "events": 400,
+        "unmatched_lower_bound": 379
+      },
+      "N2>W": {
+        "cells": 66,
+        "deficits": 66,
+        "events": 481,
+        "unmatched_lower_bound": 382
+      },
+      "N3>N1": {
+        "cells": 4,
+        "deficits": 4,
+        "events": 15,
+        "unmatched_lower_bound": 14
+      },
+      "N3>N2": {
+        "cells": 63,
+        "deficits": 63,
+        "events": 1148,
+        "unmatched_lower_bound": 983
+      },
+      "N3>W": {
+        "cells": 8,
+        "deficits": 8,
+        "events": 30,
+        "unmatched_lower_bound": 29
+      },
+      "REM>N1": {
+        "cells": 45,
+        "deficits": 45,
+        "events": 395,
+        "unmatched_lower_bound": 296
+      },
+      "REM>N2": {
+        "cells": 22,
+        "deficits": 22,
+        "events": 95,
+        "unmatched_lower_bound": 77
+      },
+      "REM>W": {
+        "cells": 37,
+        "deficits": 37,
+        "events": 194,
+        "unmatched_lower_bound": 169
+      },
+      "W>N1": {
+        "cells": 76,
+        "deficits": 76,
+        "events": 1675,
+        "unmatched_lower_bound": 1411
+      },
+      "W>N2": {
+        "cells": 12,
+        "deficits": 12,
+        "events": 55,
+        "unmatched_lower_bound": 55
+      },
+      "W>REM": {
+        "cells": 3,
+        "deficits": 3,
+        "events": 19,
+        "unmatched_lower_bound": 19
+      }
+    }
+  },
+  "cap_healthy": {
+    "recordings": 16,
+    "cells": 77,
+    "deficits": 77,
+    "pairs": {
+      "N1>N2": {
+        "cells": 7,
+        "deficits": 7,
+        "events": 61,
+        "unmatched_lower_bound": 60
+      },
+      "N1>REM": {
+        "cells": 1,
+        "deficits": 1,
+        "events": 7,
+        "unmatched_lower_bound": 7
+      },
+      "N1>W": {
+        "cells": 2,
+        "deficits": 2,
+        "events": 15,
+        "unmatched_lower_bound": 14
+      },
+      "N2>N1": {
+        "cells": 3,
+        "deficits": 3,
+        "events": 16,
+        "unmatched_lower_bound": 12
+      },
+      "N2>N3": {
+        "cells": 16,
+        "deficits": 16,
+        "events": 98,
+        "unmatched_lower_bound": 81
+      },
+      "N2>REM": {
+        "cells": 14,
+        "deficits": 14,
+        "events": 60,
+        "unmatched_lower_bound": 53
+      },
+      "N2>W": {
+        "cells": 3,
+        "deficits": 3,
+        "events": 18,
+        "unmatched_lower_bound": 13
+      },
+      "N3>N2": {
+        "cells": 9,
+        "deficits": 9,
+        "events": 53,
+        "unmatched_lower_bound": 32
+      },
+      "REM>N1": {
+        "cells": 2,
+        "deficits": 2,
+        "events": 10,
+        "unmatched_lower_bound": 7
+      },
+      "REM>N2": {
+        "cells": 13,
+        "deficits": 13,
+        "events": 53,
+        "unmatched_lower_bound": 49
+      },
+      "W>N1": {
+        "cells": 7,
+        "deficits": 7,
+        "events": 54,
+        "unmatched_lower_bound": 50
+      }
+    }
+  }
+}
