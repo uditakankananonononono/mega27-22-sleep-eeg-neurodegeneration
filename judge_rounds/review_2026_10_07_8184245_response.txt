@@ -1,0 +1,422 @@
+Independent methods review
+
+Overall verdict: the revision substantially fixes F1 and F2, and materially improves F3, but the manuscript still needs several methodological clarifications before I would regard the capacity result as fully airtight. The central conclusion is defensible if stated narrowly as a conditional infeasibility result for the frozen matching contract and the selected chronologically thinned events. The manuscript is strongest as an engineering/identifiability audit, not as a physiological study.
+
+1. Conditional capacity-bound proof
+
+Verdict: essentially correct, with one important reproducibility ambiguity remaining.
+
+The core argument is sound:
+
+Each retained event belongs to exactly one exact-key stratum.
+
+A legal control must have the same key.
+
+Within a stratum, selected control intervals must be pairwise disjoint.
+
+Therefore at most C
+k
+	​
+
+ events can be matched in stratum k, giving the lower bound
+
+U
+k
+	​
+
+≥max(0,D
+k
+	​
+
+−C
+k
+	​
+
+).
+
+Because event strata are disjoint, summing these per-stratum deficits remains a valid lower bound even though controls from different strata may overlap.
+
+The manuscript now explicitly states the missing F1 condition:
+
+“Controls assigned to different events within the same directed stage-pair analysis must also be pairwise nonoverlapping…”
+
+That does resolve the original logical defect in F1. The proof is no longer silently assuming a constraint absent from the stated contract.
+
+The distinction between capacity and global feasibility is also now correctly handled. The synthetic counterexample is particularly useful because it prevents the reader from interpreting zero summed deficit as a sufficient condition for a global assignment.
+
+Remaining defect: the exact event-exclusion contract should be formalized
+
+The manuscript says:
+
+“Remove from the candidate stable-boundary set every interval sharing an epoch with E.”
+
+This is correct if E denotes the central epochs of all retained events in that directed-pair analysis. But the reproducibility-critical question is whether event exclusion is performed:
+
+before or after key construction,
+
+against all retained events or only events in the same stratum,
+
+against both epochs of each transition, and
+
+independently for each directed stage-pair.
+
+The prose strongly implies the intended answer, but the proof should define it mathematically rather than relying on implementation wording.
+
+I would add a one-sentence formal definition such as:
+
+For each directed stage-pair analysis, the eligible control set is constructed after removing every candidate interval containing either central epoch of any chronologically retained event in that analysis.
+
+That eliminates an implementation-level ambiguity that could otherwise alter C
+k
+	​
+
+.
+
+The interval-scheduling proof is adequate
+
+The earliest-boundary argument is standard and correct for equal-length adjacent two-epoch intervals. I would not demand a more elaborate theorem.
+
+The manuscript also correctly avoids claiming that the capacity algorithm is a general matching solver.
+
+One wording issue
+
+“A positive deficit does prove that complete matching is impossible under this fixed contract.”
+
+Correct, but I would make it:
+
+“A positive capacity deficit proves that complete matching is impossible for the specified retained events under this contract.”
+
+That is more exact because the result is not about every possible event-thinning scheme.
+
+2. Annotation-versus-signal argument
+
+Verdict: substantially improved and mostly successful, but one conceptual distinction should be sharpened.
+
+The manuscript does a good job preventing the common failure mode where “no statistic was produced” becomes “there was no EEG effect.”
+
+Particularly strong:
+
+zero vectors are explicitly identified as software-exercise placeholders;
+
+no power/effect statistic is interpreted;
+
+missing comparisons remain missing rather than zero;
+
+the two feasible cells are described as opportunities rather than physiological evidence;
+
+signal QC is acknowledged as capable of destroying annotation-level support;
+
+the proposed two-recording signal check is explicitly labeled selected-by-feasibility and non-inferential.
+
+That is exactly the right direction.
+
+Important remaining conceptual problem: “annotation” is not independent of EEG
+
+The manuscript sometimes gets close to treating the result as if it were wholly separate from EEG:
+
+“without examining EEG effects”
+
+That is acceptable if it means no raw EEG signal measurements were analyzed as outcomes. But the stage annotations themselves are derived from sleep recordings/scoring. Thus this is not an EEG-independent dataset in the strong sense.
+
+The manuscript should distinguish:
+
+annotation-level analysis: uses stage labels and metadata only;
+
+signal-level analysis: uses amplitudes, spectral features, artifacts, connectivity, etc.
+
+I recommend explicitly saying:
+
+“The audit is signal-outcome-blind, not independent of EEG provenance: the stage annotations originate from scored sleep recordings, but no EEG waveform or signal-derived outcome enters the support calculation.”
+
+That would make the methodological boundary much harder to misread.
+
+The CAP parsing issue remains important
+
+The manuscript admits that its CAP parser differs from the repository's Matlab reader and leaves 125 epochs UNKNOWN. That's good disclosure, but the consequence is stronger than the current prose suggests.
+
+The CAP result is therefore not simply:
+
+“CAP has 77/77 deficient cells.”
+
+It is:
+
+“Under our conservative parser and treatment of gaps, all 77 eligible cells were deficient.”
+
+That qualification should appear directly in the Results table or immediately beside the CAP result, rather than only in Methods.
+
+Otherwise a reader could interpret the result as a property of the CAP annotations themselves rather than a property of CAP annotations after this particular parsing rule.
+
+3. F3: does the new sparsity analysis actually fix the key-space objection?
+
+Verdict: mostly yes, but not completely.
+
+This is a meaningful improvement over the previous revision.
+
+The manuscript now gives:
+
+10,626 possible radius-10 histograms under the stated five-stage/20-position representation;
+
+53,130 possible starting-stage + histogram keys per time bin;
+
+actual observed histogram occupancy;
+
+same-start-stage/time-bin candidate-pool sizes;
+
+a diagnostic removing the histogram constraint.
+
+The combinatorial calculation is correct:
+
+(
+5−1
+20+5−1
+	​
+
+)=(
+4
+24
+	​
+
+)=10,626.
+
+Multiplying by five possible starting stages gives 53,130 keys per time bin.
+
+More importantly, the authors do not claim that 53,130 theoretical keys are uniformly likely. They explicitly acknowledge serial dependence and sparse occupancy. That is a good correction.
+
+The relaxed-key comparison is also informative:
+
+cassette empty pools fall from 15,489 to 2,616;
+
+CAP falls from 375 to 45.
+
+That strongly supports the narrower statement that the radius-10 exact-context component contributes materially to the observed scarcity.
+
+But F3's strongest possible version is still not answered
+
+The theoretical key space does not tell us whether the observed 81.6%/84.3% empty-pool rates are unusually high given the temporal structure of these recordings.
+
+The relevant null is not “uniformly sample one of 53,130 keys.” That would be biologically absurd. The useful question is closer to:
+
+Given the observed stage composition and temporal dependence, how often would exact radius-10 keys collide sufficiently to create matching controls?
+
+The manuscript acknowledges this but stops short of estimating it.
+
+So I would classify F3 as resolved enough to prevent the original “you ignored the obvious key-space explanation” criticism, but not resolved enough to establish that the observed empty-pool rate is itself surprising.
+
+That is fine because the manuscript now wisely says:
+
+“The finding should be framed as a quantitative design-feasibility warning, not a surprising new physiological phenomenon.”
+
+I would keep that sentence.
+
+Strongest optional improvement
+
+A useful additional analysis would be a stage-sequence-preserving null or permutation/surrogate analysis that preserves at least:
+
+stage frequencies,
+
+transition frequencies or local transition structure,
+
+recording length,
+
+time-bin structure,
+
+and then recomputes exact-key occupancy.
+
+That would answer whether the observed support failure is greater than expected from ordinary sleep-stage serial structure.
+
+It is not necessary to establish the capacity theorem, but it would strengthen the empirical “boundary” interpretation substantially.
+
+4. Findings from the first-pass reviewer
+Finding	Current status	Judgment
+F1: unstated pairwise-disjoint controls	Explicitly stated and incorporated into capacity definition	Fixed
+F1: context-window disjointness unclear	Control intervals must be disjoint; context windows are not said to be disjoint	Probably correctly resolved, but explicitly state that context windows need not be disjoint
+F2: “established impossibility” overclaim	Abstract now says “impossibility … conditional on chronologically thinned events”	Fixed
+F3: huge theoretical key space	Theoretical key-space calculation + observed occupancy + relaxed-key diagnostic added	Substantially fixed; empirical null still absent
+
+For F1, I would explicitly add:
+
+“The radius-10 context windows of different events or controls are not required to be pairwise disjoint; only the central two-epoch control intervals are subject to the nonoverlap constraint.”
+
+If that is indeed the contract. It prevents readers from accidentally applying a stronger capacity restriction than the software actually uses.
+
+5. Things the first pass missed
+A. The test-count inconsistency is a reproducibility blemish
+
+The manuscript contains multiple numbers:
+
+scope: 57 passing tests;
+
+reproducibility section: “newer 57-test suite”;
+
+primary sources: “engineering suite has 59 passing tests.”
+
+That is objectively inconsistent.
+
+It may be harmless if 59 includes two dependency/integration checks outside the formal suite, but the manuscript does not explain that.
+
+Fix: state one authoritative test count and distinguish unit/integration/dependency checks if there are genuinely different counts.
+
+This is exactly the sort of thing that undermines confidence even when all tests are green.
+
+B. The capacity theorem depends on the event-thinning algorithm, not merely “chronological thinning”
+
+The proof is conditional on the retained event set. The manuscript acknowledges this, which is good.
+
+But the scientific reader still needs the deterministic thinning rule precisely enough to reproduce E.
+
+“Events are thinned chronologically to avoid sharing central epochs” could mean several things. For adjacent transition boundaries, the exact rule matters.
+
+Fix: specify the algorithm in one sentence or pseudocode:
+
+Sort eligible event boundaries ascending and retain the earliest boundary, then discard any subsequent boundary whose central two-epoch interval overlaps the retained interval, repeating until exhausted.
+
+If that is the actual rule.
+
+Otherwise the capacity result is mathematically valid conditional on an incompletely specified E.
+
+C. “Complete matching” needs one explicit quantifier
+
+The capacity proof is really proving:
+
+no assignment exists matching every retained event
+
+under a particular set of constraints.
+
+It is not proving that the entire dataset cannot support some matching after choosing different events, relaxing chronology, altering the key, or changing exclusion rules.
+
+The manuscript mostly says this correctly, but the abstract phrase:
+
+“impossibility of full matching under this contract”
+
+should ideally say:
+
+“impossibility of full matching of the chronologically retained events under this contract.”
+
+That removes the last possible ambiguity.
+
+D. The 1,415/1,417 result is almost a census, not evidence of a general prevalence
+
+The manuscript says:
+
+“1,415 of 1,417 cells…”
+
+That is numerically striking, but the denominator is eligible cells created by this design, not all possible sleep-transition cells.
+
+The manuscript generally understands this, but the Results should reinforce:
+
+“1,415/1,417 eligible cells under the frozen contract…”
+
+Otherwise a casual reader can turn it into “99.9% of sleep transitions cannot be matched,” which is much stronger and false.
+
+E. “Control absence is the main counted source of infeasibility” is narrower than it sounds
+
+The decomposition:
+
+15,489 events with zero exact pool;
+
+15,799 lower-bound unmatched;
+
+is valid as accounting.
+
+But “main counted source” should not be interpreted causally as saying the context histogram itself causes 15,489 failures. The manuscript correctly says:
+
+“This does not show which individual exact-key component causes scarcity.”
+
+Keep that qualification adjacent to the decomposition.
+
+The relaxed-key diagnostic helps, but it does not uniquely attribute the remaining deficit to radius-10 context because removing one component changes the candidate set and its temporal structure.
+
+6. Wording that still overclaims
+
+I would revise these phrases.
+
+“A disjoint-control capacity bound established impossibility…”
+
+Change to:
+
+“A disjoint-control capacity bound demonstrated infeasibility of complete matching for the chronologically retained events under this contract…”
+
+“Established impossibility” was fixed conceptually, but “demonstrated infeasibility” is cleaner and less grandiose.
+
+“These findings establish a feasibility boundary…”
+
+This is defensible, but “empirical feasibility boundary” could imply a general boundary.
+
+Better:
+
+“These findings quantify the feasibility of this frozen matching contract in the audited recordings…”
+
+“The frozen comparison is supported rarely…”
+
+Fine, but more exact:
+
+“Complete support under the frozen contract was observed in only two of 1,417 eligible unique-recording cells.”
+
+This is harder to misread.
+
+“Thus control absence is the main counted source of infeasibility…”
+
+I'd use:
+
+“Thus empty exact-control pools account for most of the observed lower-bound unmatched-event count, while disjoint-control competition accounts for an additional lower bound.”
+
+Less causal-sounding.
+
+“Exact context contributes substantial observed scarcity…”
+
+Reasonable, but:
+
+“Removing the exact-context requirement substantially increases the observed candidate-pool availability in these data.”
+
+That is directly what was measured.
+
+7. What I would not require
+
+I would not require:
+
+a signal-level EEG analysis to validate the capacity theorem;
+
+clinical validation;
+
+significance testing;
+
+confidence intervals for the descriptive census;
+
+a general-purpose matching algorithm;
+
+a proof that sleep annotations are independent of EEG;
+
+a zero-deficit global-feasibility theorem.
+
+Those would be different questions.
+
+The manuscript is strongest when it refuses to make those claims.
+
+Final judgment
+Capacity-bound proof: PASS with clarification
+
+The original F1 logical gap is fixed. The one-sided nature of the bound is correctly explained, and the counterexample appropriately prevents overinterpretation of zero deficit.
+
+Remaining requirement: formalize the exact retained-event thinning and event-epoch exclusion rules, and explicitly state whether radius-10 context windows themselves are allowed to overlap.
+
+Annotation-versus-signal distinction: PASS, but sharpen terminology
+
+The manuscript now convincingly prevents missing annotation support from being interpreted as a null EEG result. The two feasible cells are correctly treated as opportunities rather than effects.
+
+Remaining requirement: replace any implication that the annotation analysis is EEG-independent with the more precise distinction that it is signal-outcome-blind.
+
+F3/key-space objection: SUBSTANTIALLY RESOLVED
+
+The added combinatorial calculation is correct, and the observed occupancy/relaxed-key diagnostic is much more informative than the theoretical key-space count alone.
+
+However, it still does not establish that the observed 81.6% cassette / 84.3% CAP empty-pool rates are surprising relative to ordinary temporally structured sleep-stage sequences. That is not necessary for the main capacity claim, but it limits how strongly the paper can call this an “empirical boundary.”
+
+Overall: Defensible methods result, not yet airtight manuscript
+
+The central claim I would allow is:
+
+Under the frozen exact-key matching contract, after the specified chronological event thinning and event-epoch exclusion, positive per-stratum disjoint-control capacity deficits prove that complete matching of the retained events is impossible in 1,415 of 1,417 eligible unique-recording cells.
+
+I would not allow the manuscript to drift from that into “sleep transitions generally lack controls,” “the comparison is biologically impossible,” “EEG effects cannot be measured,” or “the exact context is intrinsically responsible for the failure.”
+
+The largest remaining weaknesses are now specification precision and interpretation, not a broken capacity proof. The manuscript has also correctly resisted the much more serious error of converting annotation-level missingness into evidence for or against sleep-transition physiology.
