@@ -1,12 +1,12 @@
-# Current disease-result gates, October 1, 2026
+# Current disease-result gates, updated October 7, 2026
 
 Project endpoint remains prospective cognitive impairment associated with baseline sleep EEG, followed by independent replication. No clinical endpoint substitution has been approved. A fully open eligible prospective clinical cohort has not been verified after checking Sleep-EDF, CAP, MASS, HSP/Challenge, SOF/MrOS, wake dementia EEG and selected derived-feature releases.
 
-## Waiting on an owner decision
+## Open-only scope and unresolved data gates
 
 - Prospective cognition gate: participant-level baseline sleep EEG linked to valid future cognition/diagnosis, usable under current approved terms.
 - Independent replication gate: separate eligible participants/cohort with compatible sleep channels/stages and the same frozen outcome/feature contract, untouched during development.
-- Access decision: current BDSP/NSRR approval, qualifications/training and any needed agreement. Main retains the owner-facing question. Generic task deployment does not authorize signing agreements in the owner's name. No agreement, application or restricted-data access occurred.
+- Access route resolved October 7: proceed with open datasets only, no privileged BDSP/NSRR access, credentialing or agreements. This removes the pending access decision, not the need for compatible clinical outcomes. No eligible open prospective cohort is verified. No agreement, application or restricted-data access occurred.
 
 ## Work continuing without that decision
 
@@ -17,4 +17,4 @@ Project endpoint remains prospective cognitive impairment associated with baseli
 
 ## Not completed
 
-No clinical model fitted, biological biomarker demonstrated, same-task benchmark beaten, independent clinical replication obtained or 50-page results paper produced. Three judge rounds are archived; the corrected one-round requirement is met. More judge rounds are withdrawn. Forty-seven passing engineering tests establish software checks only.
+No clinical model fitted, biological biomarker demonstrated, same-task benchmark beaten, independent clinical replication obtained or 50-page results paper produced. Three judge rounds are archived; the corrected one-round requirement is met. More judge rounds are withdrawn. Forty-eight passing engineering tests establish software checks only. Isolated-environment reproduction and byte-identical ten-subject annotation outputs are documented separately.
