@@ -1,0 +1,316 @@
+{
+  "frozen_date": "2026-10-07",
+  "selection": "All available cassette second nights, selected before second-night outputs. Same fixed parameters; paired annotations only, not independent participants or cognition.",
+  "analysis_scope": "Descriptive second-night annotation support; repeated participants, no EEG effect or disease inference.",
+  "source_listing": "https://www.physionet.org/content/sleep-edfx/1.0.0/sleep-cassette/#files-panel",
+  "files": [
+    {
+      "file": "SC4002EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4002EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4012EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4012EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4022EJ-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4022EJ-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4032EP-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4032EP-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4042EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4042EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4052EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4052EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4062EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4062EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4072EH-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4072EH-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4082EP-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4082EP-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4092EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4092EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4102EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4102EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4112EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4112EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4122EV-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4122EV-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4142EU-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4142EU-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4152EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4152EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4162EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4162EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4172EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4172EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4182EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4182EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4192EV-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4192EV-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4202EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4202EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4212EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4212EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4222EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4222EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4232EV-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4232EV-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4242EA-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4242EA-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4252EU-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4252EU-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4262FC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4262FC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4272FM-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4272FM-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4282GC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4282GC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4292GC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4292GC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4302EV-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4302EV-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4312EM-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4312EM-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4322EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4322EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4332FC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4332FC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4342FA-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4342FA-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4352FV-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4352FV-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4362FC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4362FC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4372FC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4372FC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4382FW-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4382FW-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4402EW-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4402EW-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4412EM-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4412EM-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4422EA-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4422EA-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4432EM-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4432EM-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4442EV-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4442EV-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4452FW-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4452FW-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4462FJ-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4462FJ-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4472FA-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4472FA-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4482FJ-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4482FJ-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4492GJ-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4492GJ-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4502EM-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4502EM-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4512EW-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4512EW-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4522EM-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4522EM-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4532EV-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4532EV-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4542FW-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4542FW-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4552FW-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4552FW-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4562FJ-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4562FJ-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4572FC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4572FC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4582GP-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4582GP-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4592GY-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4592GY-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4602EJ-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4602EJ-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4612EA-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4612EA-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4622EJ-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4622EJ-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4632EA-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4632EA-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4642EP-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4642EP-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4652EG-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4652EG-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4662EJ-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4662EJ-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4672GV-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4672GV-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4702EA-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4702EA-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4712EA-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4712EA-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4722EM-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4722EM-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4732EJ-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4732EJ-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4742EC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4742EC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4752EM-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4752EM-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4762EG-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4762EG-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4772GC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4772GC-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4802GV-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4802GV-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4812GV-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4812GV-Hypnogram.edf?download"
+    },
+    {
+      "file": "SC4822GC-Hypnogram.edf",
+      "url": "https://www.physionet.org/files/sleep-edfx/1.0.0/sleep-cassette/SC4822GC-Hypnogram.edf?download"
+    }
+  ]
+}
