@@ -1,0 +1,75 @@
+{
+  "selection": "All 16 healthy CAP records n1-n16; n1 format inspected before freezing, no support outputs inspected. No disease comparison, independent source not proof of participant independence.",
+  "parameters": {
+    "bin_epochs": 60,
+    "context_radius": 10,
+    "min_events": 3
+  },
+  "parser": "Explicit full-epoch stage durations only; missing or partial intervals UNKNOWN; no carry-forward unlike source Matlab reader. Grid origin first stage event, R&K 3/4 N3.",
+  "files": [
+    {
+      "file": "n1.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n1.txt?download"
+    },
+    {
+      "file": "n2.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n2.txt?download"
+    },
+    {
+      "file": "n3.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n3.txt?download"
+    },
+    {
+      "file": "n4.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n4.txt?download"
+    },
+    {
+      "file": "n5.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n5.txt?download"
+    },
+    {
+      "file": "n6.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n6.txt?download"
+    },
+    {
+      "file": "n7.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n7.txt?download"
+    },
+    {
+      "file": "n8.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n8.txt?download"
+    },
+    {
+      "file": "n9.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n9.txt?download"
+    },
+    {
+      "file": "n10.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n10.txt?download"
+    },
+    {
+      "file": "n11.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n11.txt?download"
+    },
+    {
+      "file": "n12.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n12.txt?download"
+    },
+    {
+      "file": "n13.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n13.txt?download"
+    },
+    {
+      "file": "n14.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n14.txt?download"
+    },
+    {
+      "file": "n15.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n15.txt?download"
+    },
+    {
+      "file": "n16.txt",
+      "url": "https://physionet.org/files/capslpdb/1.0.0/n16.txt?download"
+    }
+  ]
+}
