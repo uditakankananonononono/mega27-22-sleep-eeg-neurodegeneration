@@ -1,0 +1,9 @@
+{
+  "unique_recordings": 153,
+  "duplicate_files": [
+    "SC4362FC-Hypnogram.edf",
+    "SC4522EM-Hypnogram.edf"
+  ],
+  "event_floor_cells": 1417,
+  "proven_deficit_cells": 1415
+}
