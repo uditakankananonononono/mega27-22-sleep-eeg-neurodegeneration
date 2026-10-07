@@ -74,3 +74,17 @@ Sleep-EDF: https://www.physionet.org/content/sleep-edfx/1.0.0/ . CAP: https://ph
 [6] Slow wave synchronization and sleep state transitions. https://www.nature.com/articles/s41598-022-11513-0 . Prior slow-wave/state-transition physiology.
 
 [7] Dynamics of sleep: Exploring critical transitions and early warning signals. https://pubmed.ncbi.nlm.nih.gov/32304989/ . Prior proof-of-principle attractor-state work, not clinical early-neurodegeneration validation.
+
+## Reporting and reproducibility safeguards
+
+Each result remains tied to a frozen manifest, filename and source hash. The complete stratum output is retained rather than only summary deficits, allowing readers to see event demand, raw control counts and disjoint capacity. The absence of a returned statistic is explicitly missing, not zero. Neither an empty comparison nor a zero placeholder is evidence against transition physiology. The two assignment-feasible cells are disclosed to avoid turning broad failure into a universal impossibility claim.
+
+Identity reconciliation occurs before summing overlapping recording subsets. A regression rejects inconsistent duplicates, and archived expected totals check 153 unique cassette files rather than 155 subset rows. Repeated-night pairs are linked by source-specific participant metadata. Cross-source participant independence is not inferred from different repository names. These safeguards improve the reliability of this analysis but do not certify every possible future use of the scripts.
+
+The initial dependency instructions were incomplete: the full suite imports pyedflib and annotation reproduction uses xlrd. A new Python 3.10 environment installed pinned numpy, scipy, pyedflib and xlrd versions, passed dependency checks and the then-current suite, and reproduced the original ten-subject output byte-for-byte. The newer 57-test suite also passed in that isolated environment on October 7, with no broken requirements reported. Direct dependency pins are not a cryptographic artifact lock, and other Python/platform combinations remain untested.
+
+## What a future study would need
+
+A broader sleep-physiology experiment would need a separately declared comparison that is support-feasible without using EEG outcome values to select it. It would need comparable signal units, montage, filtering, epoch origin, stage scoring, artifact exclusion and source-specific covariates. Signal-derived features would need their own uncertainty and repeated-night assessment. Merely weakening the exact key until more events match would not establish that the resulting comparison answers the original question or has less bias.
+
+Returning to the neurodegenerative question would additionally require eligible participant-level baseline EEG linked to a valid future cognitive endpoint, a frozen elapsed-time contract, a fair comparator and a genuinely independent clinical cohort. None is supplied by the present annotation support audit. The present study can inform whether a proposed design is measurable; it cannot close those clinical evidence gaps. Its practical value is to prevent unsupported estimates from being presented as successful biomarkers, not to promise a diagnostic result.

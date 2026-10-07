@@ -26,3 +26,5 @@ cmp /tmp/reproduced.json results/ten_subject_annotation_support.json
 ```
 
 This reproduces the same selected young sample's annotation-only feasibility failure: all 88 cells with at least three events have capacity deficits. It is not a new cohort, EEG effect, disease test or independent scientific replication. No raw PSG was downloaded for this check. Sleep-EDF attribution and source: https://www.physionet.org/content/sleep-edfx/1.0.0/ . Exact annotation URLs are in the frozen manifest. Metadata: https://www.physionet.org/files/sleep-edfx/1.0.0/SC-subjects.xls?download . Checksums: https://www.physionet.org/files/sleep-edfx/1.0.0/SHA256SUMS.txt?download .
+
+The isolated environment was reused on October 7 after CAP parsing, duplicate-record reconciliation and manuscript-table tests were added. All 57 tests passed in 0.159 seconds; `pip check` again found no broken requirements. This is a suite rerun in the same isolated environment, not a second independently provisioned machine or raw-data reproduction of every later source output.
