@@ -18,11 +18,11 @@ Data leads and access: see protocol/sources.md. Source page descriptions do not 
 
 ## Engineering prototype
 
-`src/dreaming22/features.py` accepts a uniformly sampled, pre-QC'd EEG array in microvolts and stage labels per fixed epoch, computes Welch bandpower and stage transitions. It does not do EDF ingestion, clinical outcome linkage, age adjustment, connectivity, or validation. These remain open tasks. Run `python3 -m unittest discover -s tests` with numpy and scipy installed.
+`src/dreaming22/features.py` accepts a uniformly sampled, pre-QC'd EEG array in microvolts and stage labels per fixed epoch, computes Welch bandpower and stage transitions. It does not do EDF ingestion, clinical outcome linkage, age adjustment, connectivity, or validation. These remain open tasks. Install the exact direct dependencies in `requirements-reproduce.txt`, then run `python3 -m unittest discover -s tests`. The full suite also imports pyedflib; annotation reproduction uses xlrd. See `protocol/reproduction_environment.md` for the isolated-environment check.
 
 ## Prospective endpoint and access audit
 
-`src/dreaming22/outcome_contract.py` checks explicit elapsed-day endpoint thresholds and baseline PSG linkage using synthetic metadata. It does not read clinical data. Current engineering suite: 47 passing tests. Access/competition status recheck: `protocol/access_recheck_2026_09_30.md`. No participant clinical dataset acquired, no model fitted, and no clinical or biological result exists.
+`src/dreaming22/outcome_contract.py` checks explicit elapsed-day endpoint thresholds and baseline PSG linkage using synthetic metadata. It does not read clinical data. Current engineering suite: 48 passing tests (October 7). Access/competition status recheck: `protocol/access_recheck_2026_09_30.md`. No participant clinical dataset acquired, no model fitted, and no clinical or biological result exists.
 
 `matched_controls.py` adds descriptive, exact within-recording context/time/count-matched controls. No exchangeable permutation null or disease result is established. See `protocol/matched_control_contract.md` and `protocol/open_route_audit.md`.
 
