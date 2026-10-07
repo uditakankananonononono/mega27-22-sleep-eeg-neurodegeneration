@@ -2,7 +2,7 @@
 import json,re,unittest,sys
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(root/'scripts'))
+sys.path[:0]=[str(root),str(root/'scripts')]
 from manuscript_tables import run
 
 def check():
