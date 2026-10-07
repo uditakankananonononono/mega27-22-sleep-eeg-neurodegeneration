@@ -1,0 +1,9 @@
+{
+  "scope": "Descriptive annotation-only census; zero placeholder power, no EEG effect or clinical inference.",
+  "participants": 77,
+  "age_min": 25.0,
+  "age_max": 101.0,
+  "event_floor_cells": 726,
+  "proven_deficit_cells": 726,
+  "assignment_candidates": []
+}
