@@ -22,7 +22,7 @@ Data leads and access: see protocol/sources.md. Source page descriptions do not 
 
 ## Prospective endpoint and access audit
 
-`src/dreaming22/outcome_contract.py` checks explicit elapsed-day endpoint thresholds and baseline PSG linkage using synthetic metadata. It does not read clinical data. Current engineering suite: 58 passing tests (October 7). Access/competition status recheck: `protocol/access_recheck_2026_09_30.md`. No participant clinical dataset acquired, no model fitted, and no clinical or biological result exists.
+`src/dreaming22/outcome_contract.py` checks explicit elapsed-day endpoint thresholds and baseline PSG linkage using synthetic metadata. It does not read clinical data. Current engineering suite: 59 passing tests (October 7). Access/competition status recheck: `protocol/access_recheck_2026_09_30.md`. No participant clinical dataset acquired, no model fitted, and no clinical or biological result exists.
 
 `matched_controls.py` adds descriptive, exact within-recording context/time/count-matched controls. No exchangeable permutation null or disease result is established. See `protocol/matched_control_contract.md` and `protocol/open_route_audit.md`.
 
@@ -32,4 +32,4 @@ Expanded annotation-only census: 78 participants, 707 >=3-event cells, 705 capac
 
 ## Manuscript completion gate
 
-The working manuscript is 2884 words including headings and references (October 7). No PDF/body-page count has been measured. The 50+ Times New Roman text-body-page gate is **false**; figures, tables, headings, references and appendices do not count. No padding is planned. The annotation-versus-EEG-effect check is a written prospective engineering plan, not an executed result.
+The working manuscript is 3232 words including headings and references (October 7). No PDF/body-page count has been measured. The 50+ Times New Roman text-body-page gate is **false**; figures, tables, headings, references and appendices do not count. No padding is planned. The annotation-versus-EEG-effect check is a written prospective engineering plan, not an executed result.

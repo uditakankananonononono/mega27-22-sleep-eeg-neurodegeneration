@@ -1,0 +1,31 @@
+{
+  "scope": "Post-review descriptive occupancy diagnostic, not confirmatory or a replacement estimand. Coarse pools do not prove feasible matching.",
+  "possible_20_epoch_five_stage_histograms": 10626,
+  "possible_keys_per_time_bin": 53130,
+  "sources": {
+    "sleep_edf": {
+      "recordings": 153,
+      "cells": 1417,
+      "events": 18989,
+      "coarse_empty_events": 2616,
+      "exact_empty_events": 15489,
+      "event_weighted_controls_min": 0,
+      "event_weighted_controls_median": 11,
+      "event_weighted_controls_max": 58,
+      "event_weighted_observed_histograms_median": 7,
+      "event_weighted_observed_histograms_max": 31
+    },
+    "cap": {
+      "recordings": 16,
+      "cells": 77,
+      "events": 445,
+      "coarse_empty_events": 45,
+      "exact_empty_events": 375,
+      "event_weighted_controls_min": 0,
+      "event_weighted_controls_median": 14,
+      "event_weighted_controls_max": 58,
+      "event_weighted_observed_histograms_median": 10,
+      "event_weighted_observed_histograms_max": 24
+    }
+  }
+}
